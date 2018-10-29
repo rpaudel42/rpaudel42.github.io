@@ -1,6 +1,6 @@
 ---
 layout: page
-title: software
+title: Software
 description: Ramesh Paudel's software
 ---
 

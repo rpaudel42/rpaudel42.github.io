@@ -1,20 +1,9 @@
 ---
 layout: page
 title: software
-description: Karl Broman's software
+description: Ramesh Paudel's software
 ---
 
-<div class="navbar">
-    <div class="navbar-inner">
-        <ul class="nav">
-            <li><a href="https://github.com/kbroman">github</a></li>
-            <li><a href="http://rqtl.org">R/qtl</a></li>
-            <li><a href="https://kbroman.org/qtlcharts">R/qtlcharts</a></li>
-        </ul>
-    </div>
-</div>
-
----
 
 #### <a name="qtl"></a>[R/qtl](http://rqtl.org)
 

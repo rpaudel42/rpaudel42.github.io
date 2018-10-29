@@ -5,18 +5,13 @@ description: Ramesh Paudel is PhD Candidate in Department of Computer Science at
 keywords: Paudel, concept drift, graph stream, graph based anomaly, anomaly detection
 ---
 
-Ramesh Paudel is an PhD Candidate in the
-[Department of Computer Science](http://www.csc.tntech.edu)
-at the Tennessee Technological University;
-research in concept drift in graph stream; graph based anomaly detection; smart homes etc. His PhD advisor is
-[William (Bill) Eberle](http://users.csc.tntech.edu/~weberle/).
+I am a PhD Candidate in the [Department of Computer Science](http://www.csc.tntech.edu) at the Tennessee Tech. University. My PhD advisor is [William (Bill) Eberle](http://users.csc.tntech.edu/~weberle/).
+My principal research interest is in concept drift detection on graph stream and graph based anomaly detection usually in the field of health care, smart homes, social networks etc. 
 
-Ramesh received a MS in [Computer Science](http://www.csc.tntech.edu)
-in 2014, from the Tennessee Tech. University&ndash;Cookeville. He
-worked as a software developer in [Bespoke House Inc.](http://bespoke.house), Boston, MA from 2014-2016. In 2016, he re-joined
-[Tennessee Tech](https://www.tntech.edu) to do his PhD.
+My research are motivated by real world problems that have that can be mapped into graphs like [Anomaly Detection of Elderly Patient Activities in Smart Homes](https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/ICD8019.pdf) and [Anomalous Activity Detection in Diabetic Patients](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS18/paper/view/17622/16833).  In particular, my research focuses on designing effective and scalable algorithms for unsupervised anomaly detection on drifting graph stream. The developed methods will be applied to detect concept drift using unsupervised approach, predict future drift and incorporate the drift information to design online graph based anomaly detection algorithm for effective anomaly detection. 
 
-His primary research focuses on solving real world problems using graphs like [Anomaly Detection of Elderly Patient Activities in Smart Homes](https://www.researchgate.net/profile/Ramesh_Paudel4/publication/325296524_Anomaly_Detection_of_Elderly_Patient_Activities_in_Smart_Homes_using_a_Graph-Based_Approach/links/5b154ee84585151f91f96b49/Anomaly-Detection-of-Elderly-Patient-Activities-in-Smart-Homes-using-a-Graph-Based-Approach.pdf) and [Anomalous Activity Detection in Diabetic Patients](https://www.researchgate.net/profile/Ramesh_Paudel4/publication/319333465_Detection_of_Anomalous_Activity_in_Diabetic_Patients_Using_Graph-Based_Approach/links/59a59526a6fdcc61fcf97b98/Detection-of-Anomalous-Activity-in-Diabetic-Patients-Using-Graph-Based-Approach.pdf). Recently he has been focusing on the development of unsupervised concept drift detection approach in graph streams. 
+I received a MS degree in [Computer Science](http://www.csc.tntech.edu)
+in 2014, from Tennessee Tech. University, Cookeville. From 2014-2016, I worked as a software developer in [Bespoke House Inc.](http://bespoke.house) Boston, MA. In 2016, I re-joined [Tennessee Tech.](https://www.tntech.edu) for PhD and continued my research.
 
 [curriculum vitae ![CV as pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)]({{ BASE_PATH }}/assets/Resume.pdf)<br/>
 [google scholar](https://scholar.google.com/citations?user=seHpymwAAAAJ&hl=en)<br/>

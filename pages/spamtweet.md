@@ -1,1 +1,8 @@
+---
+layout: post
+title: Spam Tweet Detection in Trending Topic
+description: Ramesh Paudel; Spam Tweet Detection in Trending Topic
+---
+
+
 In recent years, social media has changed the way people commu-nicate and share information. For example, when some importantand noteworthy event occurs, many people like to "tweet" (Twitter)or post information, resulting in the event trending and becomingmore popular. Unfortunately, spammers can exploit trending topicsto spread spam more quickly and to a wider audience. Recently,researchers have applied various machine learning techniques onaccounts and messages to detect spam in Twitter. However, the fea-tures of typical tweets can be easily fabricated by the spammers. Inthis work, we propose a novel graph based approach that leveragesthe relationship between the named entities present in the contentof the tweet and the document referenced by the URL mentionedin the tweet for detecting possible spam. It is our hypothesis thatby combining multiple, heterogeneous information together into asingle graph representation, we can discover unusual patterns inthe data that reveal spammer activities - structural features thatare difficult for spammers to fabricate. We will demonstrate theusefulness of this approach by collecting tweets and news feedsrelated to trending topics, and running graph-based anomaly de-tection algorithms on a graph representation of the data, in orderto effectively detect anomalies on trending tweets.

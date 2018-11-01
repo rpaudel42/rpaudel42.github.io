@@ -4,7 +4,7 @@ title: Concept Drift in Graph Stream
 date: Nov 1, 2018
 tags: graph stream, concept drift, anomaly detection, drift prediction
 categories: graph stream, concept drift
-next:pages/spamtweet.html
+next: pages/spamtweet.html
 description: Ramesh Paudel; Concept Drift Detection in Graph Stream
 ---
 

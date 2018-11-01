@@ -10,8 +10,8 @@ My principal research interest is in concept drift detection on graph stream and
 
 #### Current Research
 
-- [Concept Drift Detection on Graph Streams](/pages/graphstream.md)
-- [Spam Tweet Detection on Trending Topics](/pages/spamtweet.md)
+- [Concept Drift Detection on Graph Streams](/pages/graphstream.html)
+- [Spam Tweet Detection on Trending Topics](/pages/spamtweet.html)
 
 
 #### Past Research

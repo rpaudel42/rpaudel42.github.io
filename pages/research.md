@@ -16,5 +16,5 @@ My principal research interest is in concept drift detection on graph stream and
 
 #### Past Research
 
-- [Anomalous Acitivity Detection on Smart Homes](http://kbroman.org/Tools4RR/pages/schedule.html)
-- [Anomaly Detection on Medicare](http://kbroman.org/Tools4RR/pages/resources.html)
+- [Anomalous Acitivity Detection on Smart Homes](/pages/smarthomes.html)
+- [Anomaly Detection on Medicare](/pages/medicare.html)

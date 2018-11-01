@@ -4,6 +4,11 @@ title: Concept Drift in Graph Stream
 description: Ramesh Paudel; Concept Drift Detection in Graph Stream
 ---
 
+<div class="span2">
+    <a href="../assets/pics/graphstream.png">
+        <img src="../assets/pics/graphstream.png"
+              title="Concept Drift Detection" alt="Concept Drift Detection Architecture"/></a>
+    </div>
 
 There are three key elements in this research as shown in the Fig 1.
 - Concept Drift Detection:

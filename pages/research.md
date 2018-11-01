@@ -10,8 +10,8 @@ My principal research interest is in concept drift detection on graph stream and
 
 #### [Current Research](http://kbroman.org/Tools4RR) (BMI 826-003; Spring, 2016)
 
-- [Concept Drift Detection on Graph Streams](http://kbroman.org/Tools4RR/pages/schedule.html)
-- [Spam Tweet Detection on Trending Topics](http://kbroman.org/Tools4RR/pages/resources.html)
+- [Concept Drift Detection on Graph Streams](/pages/graphstream.md)
+- [Spam Tweet Detection on Trending Topics](/pages/spamtweet.md)
 
 
 #### [Past Research](http://kbroman.org/Tools4RR) (BMI 826-003; Spring, 2016)

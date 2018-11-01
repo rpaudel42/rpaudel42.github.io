@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Detecting the Onset of a Network Layer DoS Attack
+tags: DoS Attack, anomaly detection, graph-based anomaly
+categories: Network, DoS Attack
 description: Ramesh Paudel; Detecting the Onset of a Network Layer DoS Attack
 ---
 

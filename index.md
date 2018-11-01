@@ -21,7 +21,7 @@ in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, I worked as
 ---
 
 <div class="container">
-<h4><a name="contact"></a>contact</h4>
+<h4><a name="contact"></a>Contact</h4>
 
     <div class="row-fluid">
         <div class="span5">

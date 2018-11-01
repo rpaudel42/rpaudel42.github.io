@@ -10,7 +10,7 @@ description: Ramesh Paudel; Concept Drift Detection in Graph Stream
               title="Concept Drift Detection" alt="Concept Drift Detection Architecture"/></a>
     </div>
 
-There are three key elements in this research as shown in the Fig 1.
+There are three key elements in this research as shown in the above figure.
 - Concept Drift Detection:
 Anomaly detection on streaming data have to take concept drift in account to be an effective approach. So, first step for effective anomaly detection on non-stationary (drifting) graph stream will be accompanied by a novel unsupervised drift detection approach in graph stream called Discriminative Subgraph based Concept Drift Detection on Graph Stream. In stream data, supervised concept drift detection is unfeasible because the data is collected at high frequencies and labeling is costly. The concept of the graph stream in any time (or window) is defined by the feature distribution (discriminative subgraph) over a time period (window). 
 

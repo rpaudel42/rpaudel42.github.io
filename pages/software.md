@@ -11,7 +11,7 @@ GBAD discovers anomalous instances of structural patterns in data, where the dat
 [find more...](http://users.csc.tntech.edu/~weberle/gbad/)
 
 ---
-
+<!--
 #### <a name="relcheck"></a>RelCheck
 Version 0.67 (24 August 2000)
 Software for verifying relationships between all pairs of
@@ -21,9 +21,9 @@ J Hum Genet, 61:423-429, 1997](https://www.ncbi.nlm.nih.gov/pubmed/9311748)), wi
 Broman and Weber ([Am
 J Hum Genet 63:1563-1564, 1998](https://www.ncbi.nlm.nih.gov/pubmed/9792888)), to allow for the presence of
 genotyping errors.  We look only at the relationships MZ twins,
-parent/offspring, fullsibs, halfsibs and unrelated.
+parent/offspring, fullsibs, halfsibs and unrelated.-->
 
-**Note**: I am no longer actively developing this software. You may wish to check out Mary Sara McPeek and Lei
+<!--**Note**: I am no longer actively developing this software. You may wish to check out Mary Sara McPeek and Lei
 Sun's program [PREST](http://galton.uchicago.edu/~mcpeek/software/prest/).  It has a similar aim, and calculates a
 more extensive set of statistics, includes measures of statistical
 significance, and also looks at avuncular and first cousin
@@ -61,4 +61,4 @@ are not well documented, and I'm no longer actively developing this software.  L
 
 Download: [source](https://www.biostat.wisc.edu/software/f2/f2_0.50.tar.gz) | [windows](https://www.biostat.wisc.edu/software/f2/f2_0.50.zip)
 
-Sample data \[[tar.gz](https://www.biostat.wisc.edu/software/f2/example.tar.gz) | [zip](https://www.biostat.wisc.edu/software/f2/example.zip)\]
+Sample data \[[tar.gz](https://www.biostat.wisc.edu/software/f2/example.tar.gz) | [zip](https://www.biostat.wisc.edu/software/f2/example.zip)\]-->

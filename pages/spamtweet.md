@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Spam Tweet Detection in Trending Topic
+tags: spam detection, anomaly detection, graph-based anomaly
+categories: social network, twitter
 description: Ramesh Paudel; Spam Tweet Detection in Trending Topic
 ---
 

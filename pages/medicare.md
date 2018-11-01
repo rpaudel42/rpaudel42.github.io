@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Detection of Anomalous Activity in Diabetic Patients
+tags: health care, anomaly detection, medicare
+categories: health care
 description: Ramesh Paudel; Detection of Anomalous Activity in Diabetic Patients
 ---
 

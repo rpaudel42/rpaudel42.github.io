@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Anomaly Detection of Elderly Patient Activities in Smart Homes
+tags: smart homes, anomaly detection, graph-based anomaly
+categories: smart homes
 description: Ramesh Paudel; Anomaly Detection of Elderly Patient Activities in Smart Homes
 ---
 

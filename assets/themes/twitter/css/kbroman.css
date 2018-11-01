@@ -30,7 +30,12 @@ a:hover img {
     text-decoration: none;
     border: solid 2px #e3e4fa;
 }
-
+topimage
+{
+    margin-bottom: 30px;
+    width: 100%;
+    align-content: center;
+}
 p.center {
     text-align: center;
 }

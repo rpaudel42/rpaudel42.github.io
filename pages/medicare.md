@@ -26,3 +26,4 @@ Every year, billions of dollars are lost due to fraud in the U.S. health care sy
    
 This work is focused on graph-based analysis of CMS provided Medicare claims data to look for above anomalies by analysing the relationships and transactions among patients, service providers, claims, physicians, diagnosis, and procedures. 
 In our experiments, we create graphs from inpatient, outpatient, and carrier claims data of the beneficiary. We then demonstrate the potential effectiveness of applying graph-based anomaly detection to the problem of discovering anomalies and potential fraud scenarios.
+For more detail please refer the published work at [FLAIRS-30 Conference Preceeding] (https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/view/15455/14978)

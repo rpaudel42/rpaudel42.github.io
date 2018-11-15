@@ -14,9 +14,10 @@ twitter handle.
 The data collected in this set consists of news stories from 2/09/2017 to 6/23/2017, and associated
 tweets that occurred 10 days before and after the corresponding news story, based upon the twitter
 account (handle) mentioned in the body of the news.  
-The full datasets of Twitter-Newsfeed dataset can be downloaded here (**[Twitter-Newsfeed.zip](/datasets/Twitter-Newsfeed.zip)**)
+
 
 **How the Data was Collected?**
+
 First, we collected news data from News API. The data from News API have author name, news
 title, news headline, news url, published date, etc. Then, in order to get the body of the news story
 (which is not returned from the News API), we crawled the URL for the associated news source
@@ -26,3 +27,4 @@ REST API where all tweets 10 days around the published news story are collected.
 The result is two separate, comma-delimited (.csv) files, documents.csv and usertweet.csv,
 corresponding to news stories and tweets respectively.
 
+The full datasets of Twitter-Newsfeed dataset can be downloaded here (**[Twitter-Newsfeed.zip](/datasets/Twitter-Newsfeed.zip)**)

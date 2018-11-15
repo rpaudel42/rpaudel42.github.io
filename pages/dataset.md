@@ -27,4 +27,5 @@ REST API where all tweets 10 days around the published news story are collected.
 The result is two separate, comma-delimited (.csv) files, documents.csv and usertweet.csv,
 corresponding to news stories and tweets respectively.
 
+This data can be useful for text/topic mining.
 The full datasets of Twitter-Newsfeed dataset can be downloaded here (**[Twitter-Newsfeed.zip](/datasets/Twitter-Newsfeed.zip)**)

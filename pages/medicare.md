@@ -21,7 +21,7 @@ Every year, billions of dollars are lost due to fraud in the U.S. health care sy
     <a href="../assets/pics/cprobAnom1.png">
         <img src="../assets/pics/cprobAnom1.png"
               title="Normal and Anomalous Graph Structure" alt="Normal and Anomalous Graph Structure"/></a>
-    <em>Fig. Normal and Anomalous Graph Structure Discovered</em>
+    <center><em>Fig. Normal and Anomalous Graph Structure Discovered</em></center> </br>
     </div>
    
 This work is focused on graph-based analysis of CMS provided Medicare claims data to look for above anomalies by analysing the relationships and transactions among patients, service providers, claims, physicians, diagnosis, and procedures. 

@@ -13,6 +13,7 @@ The percentage of people living over 65 years has increased steadily over the la
               title="Graph Layout for Smart home Sensor" alt="Graph Layout for Smart home Sensor"/></a>
 </div>
 
+
 1. <h5>Graph-based Approach:</h5>
 This work presents a graph-based approach that successfully discover patterns and anomalies in resident activities. We analyze activity graphs constructed from smart home daily activities to detect normative patterns as well as temporal, spatial, and behavioral anomalies. We also present case studies for cognitively impaired participants and discuss how these anomalies can be linked to the decline in their cognitive abilities which will ultimately provide clinicians and care givers important knowledge regarding their patients.
 Refer the paper published in [ICDATA-2018 Conference Preceedings](https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/ICD8019.pdf) for details.

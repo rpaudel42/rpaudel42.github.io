@@ -7,14 +7,12 @@ description: Ramesh Paudel; Anomaly Detection of Elderly Patient Activities in S
 ---
 
 The percentage of people living over 65 years has increased steadily over the last few decades, and with it is coming a rapid increase in cognitive health issues among the baby boomers. In order to address the issue of caring for this particular aging population, intelligent solutions need to be provided. Sensor-based smart home provide the ability to track resident activities without interfering in their daily routine. It is useful to detect and predict the behaviors of an elderly resident in order to improve the safety of the residents’ home environment and provide aid for their caregiver.
-
-1. <h5>Graph-based Approach:</h5>
 <div class="span2 topimage">
     <a href="../assets/pics/Graph-Layout-Draw-IO.pdf">
         <img src="../assets/pics/Graph-Layout-Draw-IO.pdf"
               title="Graph Layout for Smart home Sensor" alt="Graph Layout for Smart home Sensor"/></a>
     </div>
-    
+1. <h5>Graph-based Approach:</h5>
 This work presents a graph-based approach that successfully discover patterns and anomalies in resident activities. We analyze activity graphs constructed from smart home daily activities to detect normative patterns as well as temporal, spatial, and behavioral anomalies. We also present case studies for cognitively impaired participants and discuss how these anomalies can be linked to the decline in their cognitive abilities which will ultimately provide clinicians and care givers important knowledge regarding their patients.
 Refer the paper published in [ICDATA-2018 Conference Preceedings](https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/ICD8019.pdf) for details.
 

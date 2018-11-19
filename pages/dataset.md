@@ -4,7 +4,19 @@ title: Datasets Repository
 description: Dataset used in Research
 ---
 
-### Twitter-Newsfeed Dataset
+### Graphs Dataset
+Several graph datasets from various application domains used in my research are listed here. Each graph are attributed in nature with nodes and edges. Original datasets are converted into .g format that can be used as input for [GBAD] (http://users.csc.tntech.edu/~weberle/gbad/). Also .dot file format are available. If .dot file are not available, use graph2dot command in GBAD to convert to .dot file for visualiazation using [Graphviz](http://www.graphviz.org)). This will help people understand the relationship between entities within each dataset and facilitate the development of graph.
+The .g file format 
+
+**Smart Homes Acitivity Graphs**
+The graphs are constructed by using [Kyoto dataset with 400 participants](http://casas.wsu.edu/datasets/) provided by Washington State University’s [CASAS program](http://casas.wsu.edu). The CASAS website provides a raw sensor log dataset for each participant containing time (HH:MM:SS), sensor identification, sensor value, and an activity number to show the activity is being executed (we have constructed graphs for first 8 activities). To complete each activities, the participants need to perform various corresponding steps (sub-activities). This process of performing specific activities using their corresponding steps can be mapped using a graph because activities and steps can be considered entities and represented as nodes and the sequence and their relationship to the participant can be represented as edges. Since the behavior will vary among each activity, like the behavior for filling the medicine dispenser is different from the behavior for making a cup of soup, we have constructed separate graphs for each activity so that patterns and trends based on the progress made while performing that specific activity can be discovered.
+ 
+
+---
+
+### Other Dataset
+
+**Twitter-Newsfeed Dataset**
 The dataset is collected from [News API](https://newsapi.org/) and [Twitter REST API](https://dev.twitter.com/rest/public).
 The News API provides headlines from 70 worldwide sources including ABC News, BBC,
 Bloomberg, Business Insider, Buzzfeed, Associated Press, CNN, CNBC, ESPN, Google News etc.
@@ -15,8 +27,7 @@ The data collected in this set consists of news stories from 2/09/2017 to 6/23/2
 tweets that occurred 10 days before and after the corresponding news story, based upon the twitter
 account (handle) mentioned in the body of the news.  
 
-
-**How the Data was Collected?**
+<h5>How the Data was Collected?</h5>
 
 First, we collected news data from News API. The data from News API have author name, news
 title, news headline, news url, published date, etc. Then, in order to get the body of the news story
@@ -29,3 +40,7 @@ corresponding to news stories and tweets respectively.
 
 This data can be useful for text/topic mining.
 The full datasets of Twitter-Newsfeed dataset can be downloaded here (**[Twitter-Newsfeed.zip](/datasets/Twitter-Newsfeed.zip)**)
+
+---
+
+

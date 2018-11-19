@@ -8,7 +8,7 @@ description: Dataset used in Research
 Several graph datasets from various application domains used in my research are listed here. Each graph are attributed in nature with nodes and edges. Original datasets are converted into .g format that can be used as input for [GBAD](http://users.csc.tntech.edu/~weberle/gbad/). Also .dot file format are available. If .dot file are not available, use graph2dot command in GBAD to convert to .dot file for visualiazation using [Graphviz](http://www.graphviz.org)). This will help people understand the relationship between entities within each dataset and facilitate the development of graph.
 The .g file format 
 
-<h3>Smart Homes Acitivity Graphs</h3>
+<h4>Smart Homes Acitivity Graphs</h4>
 The graphs are constructed by using [Kyoto dataset with 400 participants](http://casas.wsu.edu/datasets/) provided by Washington State University’s [CASAS program](http://casas.wsu.edu). The CASAS website provides a raw sensor log dataset for each participant containing time (HH:MM:SS), sensor identification, sensor value, and an activity number to show the activity is being executed (we have constructed graphs for first 8 activities). The dataset consist of 8 graphs for each of the 8 activities for 239 healthy patient and 3 patient with cognitive impairment (can be thought as anomaly). 
 <ul>
  <li>Downloaded here (**[Activity-Graphs.zip](/datasets/smart-home-graphs.zip)**)</li>

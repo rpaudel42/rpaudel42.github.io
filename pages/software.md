@@ -12,11 +12,11 @@ GBAD discovers anomalous instances of structural patterns in data, where the dat
 
 ---
 
-#### <a name="PLADS"></a>![pdf]({{ BASE_PATH }}/assets/pics/gbad.ico)&nbsp;&nbsp;[Pattern Learning and Anomaly Detection in Streams (PLADS)](http://users.csc.tntech.edu/~weberle/gbad/download_plads.html)
+#### <a name="PLADS"></a>![pdf]({{ BASE_PATH }}/assets/pics/gbad.ico)&nbsp;&nbsp;[Pattern Learning and Anomaly Detection in Streams (PLADS)](http://ailab.wsu.edu/adgs/)
 
 A generic algorithm for applying graph-based anomaly detection methods to streaming data. The user can apply any normative pattern discovery techniques and any graph-based anomaly detection algorithms with this approach. The PLADS algorithm accepts as input a set of N graph partitions either by partitioning a static graph, or fed in over time. PLADS approach uses GBAD for determining what are the normative patterns and what are the anomalous substructures.
 <br/>
-[find more...](http://users.csc.tntech.edu/~weberle/gbad/download_plads.html)
+[find more...](http://ailab.wsu.edu/adgs/)
 
 ---
 

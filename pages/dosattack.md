@@ -6,6 +6,11 @@ categories: Network, DoS Attack
 description: Ramesh Paudel; Detecting the Onset of a Network Layer DoS Attack
 ---
 
+<div class="topimage">
+    <a href="../assets/pics/DoS.png">
+        <img src="../assets/pics/DoS.png"
+              title="DoS attack graph" alt="DoS attack graph structure"/></a>
+    </div>
 
 A denial-of-service (DoS) attack is a malicious act
 with the goal of interrupting the access to a computer network.

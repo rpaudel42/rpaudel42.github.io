@@ -5,13 +5,15 @@ description: Dataset used in Research
 ---
 
 ### Graphs Dataset
-Several graph datasets from various application domains used in my research are listed here. Each graph are attributed in nature with nodes and edges. Original datasets are converted into .g format that can be used as input for [GBAD] (http://users.csc.tntech.edu/~weberle/gbad/). Also .dot file format are available. If .dot file are not available, use graph2dot command in GBAD to convert to .dot file for visualiazation using [Graphviz](http://www.graphviz.org)). This will help people understand the relationship between entities within each dataset and facilitate the development of graph.
+Several graph datasets from various application domains used in my research are listed here. Each graph are attributed in nature with nodes and edges. Original datasets are converted into .g format that can be used as input for [GBAD](http://users.csc.tntech.edu/~weberle/gbad/). Also .dot file format are available. If .dot file are not available, use graph2dot command in GBAD to convert to .dot file for visualiazation using [Graphviz](http://www.graphviz.org)). This will help people understand the relationship between entities within each dataset and facilitate the development of graph.
 The .g file format 
 
-**Smart Homes Acitivity Graphs**
-The graphs are constructed by using [Kyoto dataset with 400 participants](http://casas.wsu.edu/datasets/) provided by Washington State University’s [CASAS program](http://casas.wsu.edu). The CASAS website provides a raw sensor log dataset for each participant containing time (HH:MM:SS), sensor identification, sensor value, and an activity number to show the activity is being executed (we have constructed graphs for first 8 activities). To complete each activities, the participants need to perform various corresponding steps (sub-activities). This process of performing specific activities using their corresponding steps can be mapped using a graph because activities and steps can be considered entities and represented as nodes and the sequence and their relationship to the participant can be represented as edges. Since the behavior will vary among each activity, like the behavior for filling the medicine dispenser is different from the behavior for making a cup of soup, we have constructed separate graphs for each activity so that patterns and trends based on the progress made while performing that specific activity can be discovered.
- 
-
+<h3>Smart Homes Acitivity Graphs</h3>
+The graphs are constructed by using [Kyoto dataset with 400 participants](http://casas.wsu.edu/datasets/) provided by Washington State University’s [CASAS program](http://casas.wsu.edu). The CASAS website provides a raw sensor log dataset for each participant containing time (HH:MM:SS), sensor identification, sensor value, and an activity number to show the activity is being executed (we have constructed graphs for first 8 activities). The dataset consist of 8 graphs for each of the 8 activities for 239 healthy patient and 3 patient with cognitive impairment (can be thought as anomaly). 
+<ul>
+ <li>Downloaded here (**[Activity-Graphs.zip](/datasets/smart-home-graphs.zip)**)</li>
+ <li></li>
+ </ul>
 ---
 
 ### Other Dataset

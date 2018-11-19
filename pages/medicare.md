@@ -17,7 +17,7 @@ Every year, billions of dollars are lost due to fraud in the U.S. health care sy
 7. **Kickbacks:** A negotiated bribery in which a commission is paid to the bribe-taker (provider or patient) as a quid pro quo for services rendered.
 8. **Doctor shopping:** Patient consults many physicians in order to obtain multiple prescriptions of drugs in excess of their own therapeutic need.
 
-<div class="span2 topimage">
+<div class="topimage">
     <a href="../assets/pics/cprobAnom1.png">
         <img src="../assets/pics/cprobAnom1.png"
               title="Normal and Anomalous Graph Structure" alt="Normal and Anomalous Graph Structure"/></a>

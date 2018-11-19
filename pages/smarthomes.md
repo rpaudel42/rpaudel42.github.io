@@ -7,7 +7,8 @@ description: Ramesh Paudel; Anomaly Detection of Elderly Patient Activities in S
 ---
 
 The percentage of people living over 65 years has increased steadily over the last few decades, and with it is coming a rapid increase in cognitive health issues among the baby boomers. In order to address the issue of caring for this particular aging population, intelligent solutions need to be provided. Sensor-based smart home provide the ability to track resident activities without interfering in their daily routine. It is useful to detect and predict the behaviors of an elderly resident in order to improve the safety of the residents’ home environment and provide aid for their caregiver.
-<div class="span2 topimage">
+
+<div class="topimage">
     <a href="../assets/pics/Graph-Layout-Draw-IO.pdf">
         <img src="../assets/pics/Graph-Layout-Draw-IO.pdf"
               title="Graph Layout for Smart home Sensor" alt="Graph Layout for Smart home Sensor"/></a>

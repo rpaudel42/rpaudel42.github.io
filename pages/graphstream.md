@@ -7,7 +7,7 @@ next: spamtweet.html
 description: Ramesh Paudel, Concept Drift Detection in Graph Stream
 ---
 
-<div class="span2 topimage">
+<div class="topimage">
     <a href="../assets/pics/graphstream.png">
         <img src="../assets/pics/graphstream.png"
               title="Concept Drift Detection" alt="Concept Drift Detection Architecture"/></a>

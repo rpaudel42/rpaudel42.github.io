@@ -34,8 +34,7 @@ a:hover img {
 .topimage
 {
     margin-bottom: 30px;
-    width: 100% !important;
-    align-content: center;
+    margin-left: 15%;
 }
 p.center {
     text-align: center;

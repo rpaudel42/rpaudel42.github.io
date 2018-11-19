@@ -11,7 +11,7 @@ The .g file format
 <h4>Smart Homes Acitivity Graphs</h4>
 The graphs are constructed by using [Kyoto dataset with 400 participants](http://casas.wsu.edu/datasets/) provided by Washington State University’s [CASAS program](http://casas.wsu.edu). The CASAS website provides a raw sensor log dataset for each participant containing time (HH:MM:SS), sensor identification, sensor value, and an activity number to show the activity is being executed (we have constructed graphs for first 8 activities). The dataset consist of 8 graphs for each of the 8 activities for 239 healthy patient and 3 patient with cognitive impairment (can be thought as anomaly). 
 <ul>
- <li>Downloaded here (**[Activity-Graphs.zip](/datasets/smart-home-graphs.zip)**)</li>
+ <li>Download [Activity-Graphs.zip](/datasets/smart-home-graphs.zip)</li>
  <li>[Read Me](/datasets/smart-home-graphs.zip)</li>
  </ul>
 ---

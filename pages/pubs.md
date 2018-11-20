@@ -15,6 +15,11 @@ R Paudel, K Dunn, W Eberle, D Chaung
 [![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS18/paper/view/17622/16833)
 
 
+R Paudel, J Park, W Eberle
+(2018) Mining Heterogeneous Graph for Patterns and Anomalies. [Proceedings of Student Research and Creative Inquiry](https://publish.tntech.edu/index.php/PSRCI/article/view/365)
+[![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/heterogenous-graph.pdf)
+
+
 #### 2017
 
 R Paudel, W Eberle, D Talbert

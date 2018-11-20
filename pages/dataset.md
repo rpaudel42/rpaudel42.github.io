@@ -14,17 +14,22 @@ The graphs are constructed by using [Kyoto dataset with 400 participants](http:/
  <li>Download <a href ="/datasets/smart-home-graphs.zip">Activity Graph</a></li>
 </ul>
 If you use this dataset, please cite <br/>
-<em>Paudel, R., Eberle, W., & Holder, L. B. Anomaly Detection of Elderly Patient Activities in Smart Homes using a Graph-Based Approach. Proceedings of the International Conference on Data Science, 163-169 (2018)</em>
+<ul>
+<li><em>Paudel, R., Eberle, W., & Holder, L. B. Anomaly Detection of Elderly Patient Activities in Smart Homes using a Graph-Based Approach. Proceedings of the International Conference on Data Science, 163-169 (2018)</em>
+ </li>
+ </ul>
 
 **Medicare Claim Graphs for Diabetic Patients**
-The graphs are constructed by using [CMS Linkable 2008–2010 Medicare Data Entrepreneurs’ Synthetic Public Use File (DE-SynPUF)](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/SynPUFs/DE_Syn_PUF.html) provided by [Centers for Medicare & Medicaid Services (CMS)](https://www.cms.gov). Out of the 20 random sample files made available by the CMS, we will use sub sample 1. We have choosen 2009 beneficiaries from Tennessee and their inpatient, out- patient, carrier and prescription drug claims, when they have an initial diagnosis of diabetes. The graph input file is built from the dataset to reflects the relationship between beneficiaries, their claims, physicians involved, service provider institute, procedure performed, etc. Each beneficiary might have multiple inpatient, outpatient, carrier or prescription drug claims. The edge between a patient and a claim indicates that the patient filed, or was related to, the corresponding claim. It should also be noted that if a beneficiary has more than one claim, prescription, physician, etc., then multiple claim, prescription, physician, etc., nodes are created for each unique value, resulting in potentially multiple edges between the patient and these entities.
+The graphs are constructed by using [CMS Linkable 2008–2010 Medicare Data Entrepreneurs’ Synthetic Public Use File (DE-SynPUF)](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/SynPUFs/DE_Syn_PUF.html) provided by [Centers for Medicare & Medicaid Services (CMS)](https://www.cms.gov). Out of the 20 random sample files made available by the CMS, sub sample 1 is used. We have choosen 2009 beneficiaries from Tennessee and their inpatient, out- patient, carrier and prescription drug claims, when they have an initial diagnosis of diabetes. The graph input file is built from the dataset to reflects the relationship between beneficiaries, their claims, physicians involved, service provider institute, procedure performed, etc. Each beneficiary might have multiple inpatient, outpatient, carrier or prescription drug claims. The edge between a patient and a claim indicates that the patient filed, or was related to, the corresponding claim. It should also be noted that if a beneficiary has more than one claim, prescription, physician, etc., then multiple claim, prescription, physician, etc., nodes are created for each unique value, resulting in potentially multiple edges between the patient and these entities.
 For more detail please refer [Detection of Anomalous Activity in Diabetic Patients Using Graph-Based Approach](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/view/15455/14978)
 <ul>
  <li>Download <a href ="/datasets/carrier_claim.g">Medicare Claim Graph</a></li>
 </ul>
-If you use this dataset, please cite <br/>
-<em>Paudel, Ramesh, William Eberle, and Doug Talbert. "Detection of Anomalous Activity in Diabetic Patients Using Graph-Based Approach." Proceedings of the Thirtieth International Florida Artificial Intelligence Research Society Conference (2017).</em>
-<em>Rajbhandari, Niraj. Graph Sampling to Detect Anomalies in Large Graphs and Dynamic Graph Streams. Diss. Tennessee Technological University, 2018.</em>
+If you use this dataset, please cite one of the following paper: <br/>
+<ul>
+<li><em>Paudel, Ramesh, William Eberle, and Doug Talbert. "Detection of Anomalous Activity in Diabetic Patients Using Graph-Based Approach." Proceedings of the Thirtieth International Florida Artificial Intelligence Research Society Conference (2017).</em></li>
+<li><em>Rajbhandari, Niraj. Graph Sampling to Detect Anomalies in Large Graphs and Dynamic Graph Streams. Diss. Tennessee Technological University, 2018.</em></li>
+</ul>
 
 ---
 
@@ -34,9 +39,11 @@ If you use this dataset, please cite <br/>
 The dataset consists of tweets and documents(primarily news stories) mentioned in the tweets.
 The data was collected using [Twitter’s standard search API](https://dev.twitter.com/rest/public). We
 collected tweets related to two trending topics, “FIFA World Cup” and “NATO Summit”, during the summer of 2018. The results from Twitter’s search API contains tweet text, Twitter handle name, any hashtags and URLs mentioned in the tweet, as well as all publicly available information about the user including their name. The data for tweets is a JSON dump of individual tweets. After data collection, we manually inspected the data for the number of spam present in the dataset. We used following criteria to label the spam tweet.
-• If the tweet have keywords related to the trending topic but the document referred by the URL does not have any.
-• If the tweet have multiple link and if any of the link refer the document not related to the trending topic.
-• If tweet have a URL that redirects to a unrelated website before redirecting to the related website. This usually occur when the tweet have a tiny URL.
+<ul>
+<li>If the tweet have keywords related to the trending topic but the document referred by the URL does not have any.</li>
+<li>If the tweet have multiple link and if any of the link refer the document not related to the trending topic.</li>
+<li>If tweet have a URL that redirects to a unrelated website before redirecting to the related website. This usually occur when the tweet have a tiny URL.</li>
+</ul>
 <ul>
  <li>Download <a href ="/datasets/trending-topic.zip">Twitter Trending Topic Dataset</a></li>
 </ul>

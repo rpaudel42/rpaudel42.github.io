@@ -50,9 +50,8 @@ This dataset can be used for anomaly/spam detection in tweets, text mining etc. 
  <li>Bogus link</li>
  <li>Link piggybacking</li>
 </ol>
-<ul>
- <li>Download <a href ="/datasets/trending-topic.zip">Twitter Trending Topic Dataset</a></li>
-</ul>
+The datasets of Twitter trending topic can be downloaded here (**[Twitter-Trending-Topic.zip](/datasets/trending-topic.zip)**)
+
 
 **Twitter-Newsfeed Dataset**
 The dataset is collected from [News API](https://newsapi.org/) and [Twitter REST API](https://dev.twitter.com/rest/public).

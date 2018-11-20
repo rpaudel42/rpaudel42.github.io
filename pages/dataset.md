@@ -44,6 +44,12 @@ collected tweets related to two trending topics, “FIFA World Cup” and “NAT
 <li>If the tweet have multiple link and if any of the link refer the document not related to the trending topic.</li>
 <li>If tweet have a URL that redirects to a unrelated website before redirecting to the related website. This usually occur when the tweet have a tiny URL.</li>
 </ul>
+This dataset can be used for anomaly/spam detection in tweets, text mining etc. This has been use in one of our research [Spam Tweet Detection in Trending Topic](/pages/spamtweet.html). The dataset has the following types of spam/anomalies in the trending tweets that are consistent with the [spam scenarios listed by Twitter](https://help.twitter.com/en/safety-and-security/report-spam).
+<ol>
+ <li>Keyword/Hashtag Hijacking</li>
+ <li>Bogus link</li>
+ <li>Link piggybacking</li>
+</ol>
 <ul>
  <li>Download <a href ="/datasets/trending-topic.zip">Twitter Trending Topic Dataset</a></li>
 </ul>
@@ -66,7 +72,7 @@ to get the body of the news. Second, if the body of a news article references a 
 The result is two separate, comma-delimited (.csv) files, documents.csv and usertweet.csv,
 corresponding to news stories and tweets respectively.
 
-This data can be useful for text/topic mining.
+This data can be useful for text/topic mining and is used for [Mining Heterogeneous Graph for Patterns and Anomalies](https://publish.tntech.edu/index.php/PSRCI/article/view/365)
 The full datasets of Twitter-Newsfeed dataset can be downloaded here (**[Twitter-Newsfeed.zip](/datasets/Twitter-Newsfeed.zip)**)
 
 ---

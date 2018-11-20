@@ -23,7 +23,7 @@ If you use this dataset, please cite <br/>
 The graphs are constructed by using [CMS Linkable 2008–2010 Medicare Data Entrepreneurs’ Synthetic Public Use File (DE-SynPUF)](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/SynPUFs/DE_Syn_PUF.html) provided by [Centers for Medicare & Medicaid Services (CMS)](https://www.cms.gov). Out of the 20 random sample files made available by the CMS, sub sample 1 is used. We have choosen 2009 beneficiaries from Tennessee and their inpatient, out- patient, carrier and prescription drug claims, when they have an initial diagnosis of diabetes. The graph input file is built from the dataset to reflects the relationship between beneficiaries, their claims, physicians involved, service provider institute, procedure performed, etc. Each beneficiary might have multiple inpatient, outpatient, carrier or prescription drug claims. The edge between a patient and a claim indicates that the patient filed, or was related to, the corresponding claim. It should also be noted that if a beneficiary has more than one claim, prescription, physician, etc., then multiple claim, prescription, physician, etc., nodes are created for each unique value, resulting in potentially multiple edges between the patient and these entities.
 For more detail please refer [Detection of Anomalous Activity in Diabetic Patients Using Graph-Based Approach](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/view/15455/14978)
 <ul>
- <li>Download <a href ="/datasets/carrier_claim.g">Medicare Claim Graph</a></li>
+ <li>Download <a href ="/datasets/diabetic-claim.zip">Medicare Claim Graph</a></li>
 </ul>
 If you use this dataset, please cite one of the following paper: <br/>
 <ul>
@@ -58,15 +58,11 @@ twitter handle.
 The data collected in this set consists of news stories from 2/09/2017 to 6/23/2017, and associated
 tweets that occurred 10 days before and after the corresponding news story, based upon the twitter
 account (handle) mentioned in the body of the news.  
-
-<h5>How the Data was Collected?</h5>
-
+<b>How the Data was Collected?</b>
 First, we collected news data from News API. The data from News API have author name, news
 title, news headline, news url, published date, etc. Then, in order to get the body of the news story
 (which is not returned from the News API), we crawled the URL for the associated news source
-to get the body of the news.
-Second, if the body of a news article references a twitter handle, the handle is sent to the Twitter
-REST API where all tweets 10 days around the published news story are collected.
+to get the body of the news. Second, if the body of a news article references a twitter handle, the handle is sent to the Twitter REST API where all tweets 10 days around the published news story are collected.
 The result is two separate, comma-delimited (.csv) files, documents.csv and usertweet.csv,
 corresponding to news stories and tweets respectively.
 

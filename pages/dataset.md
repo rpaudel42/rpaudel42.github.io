@@ -13,7 +13,10 @@ The graphs are constructed by using [Kyoto dataset with 400 participants](http:/
 <ul>
  <li>Download <a href ="/datasets/smart-home-graphs.zip">Activity Graph</a></li>
  <li><a href ="##">Read Me</a></li>
- </ul>
+</ul>
+If you use this dataset, please cite
+<em>Paudel, R., Eberle, W., & Holder, L. B. Anomaly Detection of Elderly Patient Activities in Smart Homes using a Graph-Based Approach. Proceedings of the International Conference on Data Science, 163-169 (2018)</em>
+
 ---
 
 ### Other Dataset

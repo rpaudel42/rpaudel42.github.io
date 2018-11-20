@@ -9,14 +9,21 @@ Several graph datasets from various application domains used in my research are 
 The .g file format 
 
 <h4>Smart Homes Acitivity Graphs</h4>
-The graphs are constructed by using [Kyoto dataset with 400 participants](http://casas.wsu.edu/datasets/) provided by Washington State University’s [CASAS program](http://casas.wsu.edu). The CASAS website provides a raw sensor log dataset for each participant containing time (HH:MM:SS), sensor identification, sensor value, and an activity number to show the activity is being executed (we have constructed graphs for first 8 activities). The dataset consist of 8 graphs for each of the 8 activities for 239 healthy patient and 3 patient with cognitive impairment (can be thought as anomaly). 
+The graphs are constructed by using [Kyoto dataset with 400 participants](http://casas.wsu.edu/datasets/) provided by Washington State University’s [CASAS program](http://casas.wsu.edu). The CASAS website provides a raw sensor log dataset for each participant containing time (HH:MM:SS), sensor identification, sensor value, and an activity number to show the activity is being executed (we have constructed graphs for first 8 activities). The dataset consist of 8 graphs for each of the 8 activities for 239 healthy patient and 3 patient with cognitive impairment (can be thought as anomaly). For more detail please refer [Anomaly Detection of Elderly Patient Activities in Smart Homes using a Graph-Based Approach](https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/ICD8019.pdf)
 <ul>
  <li>Download <a href ="/datasets/smart-home-graphs.zip">Activity Graph</a></li>
- <li><a href ="##">Read Me</a></li>
 </ul>
-If you use this dataset, please cite
+If you use this dataset, please cite <br/>
 <em>Paudel, R., Eberle, W., & Holder, L. B. Anomaly Detection of Elderly Patient Activities in Smart Homes using a Graph-Based Approach. Proceedings of the International Conference on Data Science, 163-169 (2018)</em>
 
+<h4>Medicare Claim Graphs for Diabetic Patients</h4>
+The graphs are constructed by using [CMS Linkable 2008–2010 Medicare Data Entrepreneurs’ Synthetic Public Use File (DE-SynPUF)](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/SynPUFs/DE_Syn_PUF.html) provided by [Centers for Medicare & Medicaid Services (CMS)](https://www.cms.gov). Out of the 20 random sample files made available by the CMS, we will use sub sample 1. We have choosen 2009 beneficiaries from Tennessee and their inpatient, out- patient, carrier and prescription drug claims, when they have an initial diagnosis of diabetes. The graph input file is built from the dataset to reflects the relationship between beneficiaries, their claims, physicians involved, service provider institute, procedure performed, etc. Each beneficiary might have multiple inpatient, outpatient, carrier or prescription drug claims. The edge between a patient and a claim indicates that the patient filed, or was related to, the corresponding claim. It should also be noted that if a beneficiary has more than one claim, prescription, physician, etc., then multiple claim, prescription, physician, etc., nodes are created for each unique value, resulting in potentially multiple edges between the patient and these entities.
+For more detail please refer [Detection of Anomalous Activity in Diabetic Patients Using Graph-Based Approach](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/view/15455/14978)
+<ul>
+ <li>Download <a href ="/datasets/diabetic-claim.zip">Medicare Claim Graph</a></li>
+</ul>
+If you use this dataset, please cite <br/>
+<em>Paudel, Ramesh, William Eberle, and Doug Talbert. "Detection of Anomalous Activity in Diabetic Patients Using Graph-Based Approach." Proceedings of the Thirtieth International Florida Artificial Intelligence Research Society Conference (2017).</em>
 ---
 
 ### Other Dataset

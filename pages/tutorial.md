@@ -9,4 +9,4 @@ description: Tutorial Related to Graphs
 #### Presentation/Talk
 
 - [Anomaly Detection of Elderly Patient Activities in Smart Homes](/assets/anomaly-detection-elderly-3.pdf), International Conference on Data Science, Las Vegas, NV- 2018
-- [Detection of Anomalous Activity in Diabetic Patients](/assets/FLAIR 2017.pdf), FLAIRS-30, Marco Island, FL - 2017 
+- [Detection of Anomalous Activity in Diabetic Patients](/assets/FLAIR_2017.pdf), FLAIRS-30, Marco Island, FL - 2017 

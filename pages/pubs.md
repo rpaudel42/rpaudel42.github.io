@@ -3,6 +3,10 @@ layout: page
 title: Publications
 description: Ramesh Paudel's publications
 ---
+#### 2019
+
+R Paudel, P Harlan, W Eberle
+(2019) Detecting the Onset of a Network Layer DoS Attack with a Graph-Based Approach. The Thirty-Second International FLAIRS Conference (FLAIRS-32) (accepted)
 
 #### 2018
 

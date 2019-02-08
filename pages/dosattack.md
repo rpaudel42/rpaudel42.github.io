@@ -32,4 +32,25 @@ an entity (like a computer), but also allow us to analyze the
 anomalies that exist in an entity’s relationship with other entities,
 thus providing a rich source of contextual analysis. We
 demonstrate our proposed approach using a publicly-available
-data set.
+data set. 
+
+In this research, the early detection of the anomaly
+was possible because the graph-based approach was able to
+represent the direct repercussions of the attack (e.g., calls to
+the DNS servers by the external web server). As we know,
+the goal of a network DoS attack is to create bogus return addresses,
+causing the network to squander its resources, thus
+preventing access to legitimate users. Since the local web
+server does not know the bogus return address associated
+with the packets sent by the DoS attack, the web servers
+must perform a DNS query. This resulted in the change in
+the graph structure between the entities in the network. In
+this particular scenario, the new relationship between the external
+web and the DNS was created which was represented
+as a new node “DNS” hanging off “external web”.
+Therefore, a graph based approach represented the direct repercussions
+of the DoS attack and discovered a potential DoS attack
+in its early stages. The first known anomaly was reported
+within 5 seconds of the DoS attack inception. Also, we were
+able to identify all five IPs from which the DoS attack was
+instigated to the external web server.

@@ -11,7 +11,7 @@ The .g file format
 **Network DoS Attack Graphs**
 The dataset used to construct the graph is gathered from [Visual Analytics Science and Technology (VAST) 2011 mini challenge 2](https://old.datahub.io/dataset/vast-challenge-2011-grand-challenge). The original dataset consists of firewall logs, IDS logs, syslogs for all hosts on the network, and the network vulnerability scan report of a fictional organization called All Freight Corporation. The graph will be constructed using the firewall log from day one starting 08:52:52 am (beginning of the day) to 11:50:59 am (11 minutes after initiation of the DoS attack). Our main focus is to detect the onset of the DoS attack. The ground truth of the data indicates that the DoS attack started at 11:39 am and ends at 12:51 pm on day one. Also, ground truth reveals that five individual systems on the internet participated in the DoS attack on external web server and the installed IDS log was able to pick up on the DoS attack that occurred on the network at 11:43:29 am - 3 minutes and 39 seconds after they reported the denial of service attack. Our choice was driven by the fact that we wanted to include enough data that will capture the nature of traffic flow during the initialization of the DoS attack (but not the complete DoS attack traffic) so that we will be able to analyze the effect of the attack (from a graph perspective) on the network at its infancy. It should be noted that the choice of 11 minutes was somewhat arbitrary and not specific to the approach chosen.
 <ul>
- <li>Download <a href ="/datasets/dos-graphs.zip">DoS Attack Graph/Tool</a></li>
+ <li>Download <a href ="/datasets/dos-graph.zip">DoS Attack Graph/Tool</a></li>
 </ul>
 If you use this dataset, please cite <br/>
 <ul>

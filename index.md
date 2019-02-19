@@ -16,7 +16,7 @@ in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, I worked as
 [Curriculum Vitae ![CV as pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)]({{ BASE_PATH }}/assets/Resume.pdf)<br/>
 [Google Scholar](https://scholar.google.com/citations?user=seHpymwAAAAJ&hl=en)<br/>
 [Github](https://github.com/rpaudel42)<br/>
-[Linkedin](https://www.linkedin.com/in/ramesh-paudel-1384b564/)
+[Linkedin](https://www.linkedin.com/in/ramesh-paudel-1384b564/)<br/>
 [Research Gate](https://www.researchgate.net/profile/Ramesh_Paudel4)
 
 ---

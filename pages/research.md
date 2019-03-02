@@ -19,3 +19,4 @@ My principal research interest is in concept drift detection on graph stream and
 - [Detecting the Onset of a Network Layer DoS Attack](/pages/dosattack.html)
 - [Anomalous Acitivity Detection on Smart Homes](/pages/smarthomes.html)
 - [Anomaly Detection on Medicare](/pages/medicare.html)
+- [LINKCUBE: A Tool for Anomaly Detection in Social Network using GBAD](/assets/LinkCube_Report.pdf)

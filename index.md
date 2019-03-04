@@ -15,11 +15,11 @@ My research is motivated by real-world problems that can be mapped into graphs l
 I received an MS degree in [Computer Science](http://www.csc.tntech.edu)
 in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, I worked as a software developer at [Bespoke House Inc.](http://bespoke.house) Boston, MA. In 2016, I re-joined [Tennessee Tech.](https://www.tntech.edu) for Ph.D. and continued my research.
 
-#### <i class="fa fa-file-pdf" style="color: firebrick"></i> #### [Curriculum Vitae ![CV as pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)]({{ BASE_PATH }}/assets/Resume.pdf)<br/>
+<i class="fa fa-file-pdf" style="color: blue"></i> [Curriculum Vitae ![CV as pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)]({{ BASE_PATH }}/assets/Resume.pdf)<br/>
 [Google Scholar](https://scholar.google.com/citations?user=seHpymwAAAAJ&hl=en)<br/>
-@icon-github [Github](https://github.com/rpaudel42)<br/>
-[Linkedin](https://www.linkedin.com/in/ramesh-paudel-1384b564/)<br/>
-[Research Gate](https://www.researchgate.net/profile/Ramesh_Paudel4)
+<i class="fa fa-github" style="color: blue"></i> [Github](https://github.com/rpaudel42)<br/>
+<i class="fa fa-linkedin" style="color: blue">[Linkedin](https://www.linkedin.com/in/ramesh-paudel-1384b564/)<br/>
+<i class="fa fa-researchgate" style="color: blue"></i>[Research Gate](https://www.researchgate.net/profile/Ramesh_Paudel4)
 
 ---
 

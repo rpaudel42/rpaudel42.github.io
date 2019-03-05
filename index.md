@@ -15,7 +15,7 @@ My research is motivated by real-world problems that can be mapped into graphs l
 I received an MS degree in [Computer Science](http://www.csc.tntech.edu)
 in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, I worked as a software developer at [Bespoke House Inc.](http://bespoke.house) Boston, MA. In 2016, I re-joined [Tennessee Tech.](https://www.tntech.edu) for Ph.D. and continued my research.
 
-<img src="assets/icons/pdf-icon.png" style="width:1.1em !important;"/> [Curriculum Vitae]({{ BASE_PATH }}/assets/Resume.pdf)<br/>
+<img src="assets/icons/pdf-icon.png" style="width:1.1em !important;"/> [Curriculum Vitae]({{ BASE_PATH }}/assets/resume.pdf)<br/>
 <img src="assets/icons/ghat.png" style="width:1.1em !important;"/> [Google Scholar](https://scholar.google.com/citations?user=seHpymwAAAAJ&hl=en)<br/>
 <i class="fa fa-github"></i> [Github](https://github.com/rpaudel42)<br/>
 <i class="fa fa-linkedin"></i> [Linkedin](https://www.linkedin.com/in/ramesh-paudel-1384b564/)<br/>

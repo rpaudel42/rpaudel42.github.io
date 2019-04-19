@@ -5,7 +5,7 @@ description: Tutorial Related to Graphs
 ---
 
 - [How to use GBAD?](/assets/GBADUsers Manual.pdf)
-- [How to Predict High Growing Customer?](/assets/predicting_customer.ipynb)
+- [How to Predict High Growing Customer?](https://github.com/rpaudel42/GrowthPrediction/blob/master/predicting_customer.ipynb)
 
 #### Presentation/Talk
 

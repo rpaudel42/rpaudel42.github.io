@@ -11,3 +11,8 @@ description: Tutorial Related to Graphs
 
 - [Anomaly Detection of Elderly Patient Activities in Smart Homes](/assets/anomaly-detection-elderly-3.pdf), International Conference on Data Science, Las Vegas, NV- 2018
 - [Detection of Anomalous Activity in Diabetic Patients](/assets/FLAIR_2017.pdf), FLAIRS-30, Marco Island, FL - 2017 
+
+#### Research Posters
+
+- [An Approach For Concept Drift Detection in a Graph Stream
+Using a Discriminative Subgraph](/assets/Paudel-Poster-Research-Day.pdf), Student Research and Creative Inquiry, 2019

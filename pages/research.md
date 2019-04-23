@@ -5,7 +5,7 @@ description: Ramesh Paudel's Research
 ---
 
 
-My principal research interest is in concept drift detection on graph stream and graph based anomaly detection usually in the field of health care, smart homes, social networks etc. My research are motivated by real world problems that can be mapped into graphs like [anomaly detection of elderly patient activities](https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/ICD8019.pdf), [anomalous activity detection in diabetic patients](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/view/15455/14978), and DoS attack detection. In particular, my research focuses on designing effective and scalable algorithms for unsupervised anomaly detection on drifting graph stream. The developed methods will be applied to detect concept drift using unsupervised approach, predict future drift and incorporate the drift information to design online graph based anomaly detection algorithm for effective anomaly detection. 
+My principal research interest is in concept drift detection on graph stream and graph based anomaly detection usually in the field of health care, smart homes, social networks etc. My research are motivated by real world problems that can be mapped into graphs like [DoS attack detection](/pages/dosattack.html), [detecting spam tweet in trending topic](/pages/spamtweet.html), anomaly detection in [elderly patient activities](https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/ICD8019.pdf), and [diabetic patients claim files](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/view/15455/14978) etc. In particular, my research focuses on designing effective and scalable algorithms for anomaly detection on graph stream. 
 
 
 #### Current Research

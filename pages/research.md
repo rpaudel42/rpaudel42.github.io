@@ -11,11 +11,9 @@ My principal research interest is in concept drift detection on graph stream and
 #### Current Research
 
 - [Concept Drift Detection on Graph Streams](/pages/graphstream.html)
-- [Spam Tweet Detection on Trending Topics](/pages/spamtweet.html)
-
 
 #### Past Research
-
+- [Detecting Spam Tweets in Trending Topics](/pages/spamtweet.html)
 - [Detecting the Onset of a Network Layer DoS Attack](/pages/dosattack.html)
 - [Anomalous Acitivity Detection on Smart Homes](/pages/smarthomes.html)
 - [Anomaly Detection on Medicare](/pages/medicare.html)

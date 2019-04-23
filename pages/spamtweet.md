@@ -49,7 +49,9 @@ the topic of a tweet and the topic of the document referred by URLs in the tweet
 is much harder.
 
 In this research, we propose an unsupervised, two-step, graph-based approach
-to detect anomalous tweets on trending topics. First, we extract named entities
+to detect anomalous tweets on trending topics:
+
+1. <h5>Named Entity Extraction: </h5>First, we extract named entities
 (like place, person, organization, product, event, or activity) present in the tweet
 and add them as key elements in the graph. As tweets on a certain topic share
 the contextual similarity, we believe they also share same/similar named entities.
@@ -59,8 +61,10 @@ properly, will provide broader insight on the overall context of the topic. As s
 graphs can be a logical choice for representing these kinds of information where
 a node can represent a named entity and an edge can represent the relationships
 between them. Using a well-known graph-based tool like GBAD, we
-then discover the normal and anomalous behavior of a trending topic. Second,
-we propose adding hyperlinked document information because anomalies that
+then discover the normal and anomalous behavior of a trending topic. 
+
+2. <h5>Generate Context using Hyperlinked Documents: </h5>
+We further propose adding hyperlinked document information because anomalies that
 could not be detected from tweets alone could be detected using both the document
 and tweets. It is our assumption that a better understanding of patterns
 and anomalies associated with entities like person, place, or activity, cannot be
@@ -80,11 +84,11 @@ exible in real-time trending topics.
 Using the above mentioned 2-step approach, we aim to detect the following
 types of spam/anomalies in trending tweets that are consistent with the spam
 scenarios listed by Twitter.
-1. Keyword/Hashtag Hijacking: Using popular keywords or hashtags to promote
+1. <h5>Keyword/Hashtag Hijacking</h5>: Using popular keywords or hashtags to promote
 the tweet that are not related to the topic. This is done to promote
 anomalous tweets to a wider audience by hijacking popular hashtags and
 keywords.
-2. Bogus link : Posting a URL that has nothing to do with the content of the
+2. <h5>Bogus link </h5>: Posting a URL that has nothing to do with the content of the
 tweet. This is done to generate more traffic to the website. Another scenario
 of bogus link is link piggybacking. For example, posting an auto redirecting
 URL that goes to legitimate website but only after visiting an illegitimate

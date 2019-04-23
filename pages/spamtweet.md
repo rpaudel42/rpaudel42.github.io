@@ -51,9 +51,7 @@ is much harder.
 In this research, we propose an unsupervised, two-step, graph-based approach
 to detect anomalous tweets on trending topics:
 
-1. <h5>Named Entity Extraction: </h5>
-First, we extract named entities (like place, person, organization, product, event, or activity) present in the tweet
-and add them as key elements in the graph. As tweets on a certain topic share
+1. **Named Entity Extraction:** First, we extract named entities (like place, person, organization, product, event, or activity) present in the tweet and add them as key elements in the graph. As tweets on a certain topic share
 the contextual similarity, we believe they also share same/similar named entities.
 These named entities representing relevant/similar topics can have a relationship
 (e.g., shared ontology) amongst themselves, which we believe if represented
@@ -63,9 +61,7 @@ a node can represent a named entity and an edge can represent the relationships
 between them. Using a well-known graph-based tool like GBAD, we
 then discover the normal and anomalous behavior of a trending topic. 
 
-2. <h5>Generate Context using Hyperlinked Documents: </h5>
-We further propose adding hyperlinked document information because anomalies that
-could not be detected from tweets alone could be detected using both the document
+2. **Generate Context using Hyperlinked Documents:** We further propose adding hyperlinked document information because anomalies that could not be detected from tweets alone could be detected using both the document
 and tweets. It is our assumption that a better understanding of patterns
 and anomalies associated with entities like person, place, or activity, cannot be
 realized through a single information source, but better insight can be realized

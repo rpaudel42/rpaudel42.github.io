@@ -107,7 +107,7 @@ For further detail, please refer the paper published in [FTC-2019 Conference](ht
 
 
 <div class="topimage">
-    <a href="../assets/pics/spam_tweet.png">
-        <img src="../assets/pics/spam_tweet.png"
+    <a href="../assets/spam_tweet.png">
+        <img src="../assets/spam_tweet.png"
               title="Result Spam tweet" alt="Result Spam tweet"/></a>
 </div>

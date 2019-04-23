@@ -54,3 +54,10 @@ in its early stages. The first known anomaly was reported
 within 5 seconds of the DoS attack inception. Also, we were
 able to identify all five IPs from which the DoS attack was
 instigated to the external web server.
+
+For further detail, please refer the paper published in [FLAIRS-2019 Conference](https://rpaudel42.github.io/assets/MAIN-F-PaudelR.77.pdf).
+
+<div class="topimage">
+        <img src="../assets/pic/dos_result.png"
+              title="dos attack result" alt="dos attack result"/>
+</div>

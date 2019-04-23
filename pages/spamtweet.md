@@ -24,7 +24,7 @@ topic along with their misleading content. Ideally, one would like to be able to
 identify anomalous tweets on a trending topic that have the potential to mislead
 the population, or even possibly cause further harm. Currently, Twitter allows
 users to report spam, and after an investigation, an account can be suspended.
-However, suspending a spam account is not an ecient technique to deal with
+However, suspending a spam account is not an efficient technique to deal with
 spam related to trending topics because the suspension process is slow, and the
 trending topics usually last for only a few hours or a day at most. Therefore,
 the focus of the anomaly detection on trending topics in this work is on the
@@ -43,7 +43,7 @@ machine learning tools on user-based features (e.g., number of followers, number
 of tweets, age of the user account, number of tweets posted per day or per week,
 etc.) and content-based features (e.g., number of hashtags, mentions, URL, likes,
 etc.). Though user and content based features can be
-extracted eciently, an issue is that these features can also be fabricated easily
+extracted efficiently, an issue is that these features can also be fabricated easily
 by the spammer. However, being able to hide an inconsistency between
 the topic of a tweet and the topic of the document referred by URLs in the tweet
 is much harder.

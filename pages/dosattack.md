@@ -68,6 +68,6 @@ potentially another dataset might have produced false positives
 For further detail, please refer the paper published in [FLAIRS-2019 Conference](https://rpaudel42.github.io/assets/MAIN-F-PaudelR.77.pdf).
 
 <div class="topimage">
-        <img src="../assets/pic/dos_result.png"
+        <img src="../assets/pics/dos_result.png"
               title="dos attack result" alt="dos attack result"/>
 </div>

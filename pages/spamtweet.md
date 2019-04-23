@@ -102,7 +102,7 @@ a graph-based anomaly detection tool. We then compare the performance of our
 proposed approach with several existing approaches to show the effectiveness of
 a graph-based approach.
 
-For further detail, please refer the paper published in [FTC-2019 Conference](../assets/Spam_detection_in_trending_topic.pdf).
+For further detail, please refer the paper published in [FTC-2019 Conference](https://rpaudel42.github.io/assets/Spam_detection_in_trending_topic.pdf).
 
 
 

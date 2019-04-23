@@ -16,3 +16,6 @@ description: Tutorial Related to Graphs
 
 - [An Approach For Concept Drift Detection in a Graph Stream
 Using a Discriminative Subgraph](/assets/Paudel-Poster-Research-Day.pdf), Student Research and Creative Inquiry, 2019
+
+- [Mining Heterogeneous Graph for Patterns and
+Anomalies](/assets/heterogenous-graph.pdf), Student Research and Creative Inquiry, 2018

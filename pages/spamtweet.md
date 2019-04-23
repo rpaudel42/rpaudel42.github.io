@@ -85,12 +85,12 @@ Using the above mentioned 2-step approach, we aim to detect the following
 types of spam/anomalies in trending tweets that are consistent with the spam
 scenarios listed by Twitter.
 
-1. <h5>Keyword/Hashtag Hijacking</h5>: Using popular keywords or hashtags to promote
+1. <h5>Keyword/Hashtag Hijacking :</h5> Using popular keywords or hashtags to promote
 the tweet that are not related to the topic. This is done to promote
 anomalous tweets to a wider audience by hijacking popular hashtags and
 keywords.
 
-2. <h5>Bogus link </h5>: Posting a URL that has nothing to do with the content of the
+2. <h5>Bogus link : </h5> Posting a URL that has nothing to do with the content of the
 tweet. This is done to generate more traffic to the website. Another scenario
 of bogus link is link piggybacking. For example, posting an auto redirecting
 URL that goes to legitimate website but only after visiting an illegitimate

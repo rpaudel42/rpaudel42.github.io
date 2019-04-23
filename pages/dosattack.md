@@ -55,6 +55,16 @@ within 5 seconds of the DoS attack inception. Also, we were
 able to identify all five IPs from which the DoS attack was
 instigated to the external web server.
 
+The unusual behavior of the web server was marked as an anomaly by GBAD
+which helped to flag the DoS attack at its inception. Also,
+it should be noted that every anomaly reported by GBAD is
+related to the DoS attack. Thus, there are not any false positives
+(see confusion matrix in Table below). While a nice feature
+of what was performed here, we know that it should not be
+taken as a standard for applying a graph-based approach, and
+potentially another dataset might have produced false positives
+(something we plan to investigate in the future).
+
 For further detail, please refer the paper published in [FLAIRS-2019 Conference](https://rpaudel42.github.io/assets/MAIN-F-PaudelR.77.pdf).
 
 <div class="topimage">

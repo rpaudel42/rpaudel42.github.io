@@ -85,12 +85,12 @@ the tweet that are not related to the topic. This is done to promote
 anomalous tweets to a wider audience by hijacking popular hashtags and
 keywords.
 2. Bogus link : Posting a URL that has nothing to do with the content of the
-tweet. This is done to generate more trac to the website. Another scenario
+tweet. This is done to generate more traffic to the website. Another scenario
 of bogus link is link piggybacking. For example, posting an auto redirecting
 URL that goes to legitimate website but only after visiting an illegitimate
 website. Another way is to post multiple links where one link can be a legitimate
 link while another can be a malicious or unrelated link. The motivation
-behind link piggybacking is to generate trac to the illegitimate website by
+behind link piggybacking is to generate traffic to the illegitimate website by
 concealing the link inside a legitimate website. This can also be accomplished
 by using a tiny URL.
 

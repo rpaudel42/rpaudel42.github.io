@@ -87,12 +87,17 @@ keywords.
 2. **Bogus link :** Posting a URL that has nothing to do with the content of the tweet. This is done to generate more traffic to the website. Another scenario of bogus link is link piggybacking. For example, posting an auto redirecting URL that goes to legitimate website but only after visiting an illegitimate website. Another way is to post multiple links where one link can be a legitimate link while another can be a malicious or unrelated link. The motivation behind link piggybacking is to generate traffic to the illegitimate website by concealing the link inside a legitimate website. This can also be accomplished by using a tiny URL.
 
 To verify our approach, we collect tweets (containing URLs) related to two
-separate (and very different) trending topics during the summer of 2018: FIFA
-World Cup and NATO Summit. We then construct graphs using information
+separate (and very different) trending topics during the summer of 2018: **FIFA
+World Cup** and **NATO Summit**. We then construct graphs using information
 from the tweet text and the document referred inside the tweet, followed by using
 a graph-based anomaly detection tool. We then compare the performance of our
 proposed approach with several existing approaches to show the effectiveness of
 a graph-based approach.
+
+Our graph-based approach has superior performance in terms of
+recall and F1-score to that of existing baseline approaches. Graphs provide a powerful
+machinery for eectively capturing the long-range correlations among interdependent
+data objects/entities.
 
 For further detail, please refer the paper published in [FTC-2019 Conference](https://rpaudel42.github.io/assets/Spam_detection_in_trending_topic.pdf).
 

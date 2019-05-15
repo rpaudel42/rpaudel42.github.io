@@ -11,7 +11,7 @@ R Paudel, P Kandel, W Eberle
 R Paudel, P Harlan, W Eberle
 (2019) Detecting the Onset of a Network Layer DoS Attack with a Graph-Based Approach. The Thirty-Second International FLAIRS Conference (FLAIRS-32) [![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/MAIN-F-PaudelR.77.pdf) (accepted)
 
-R Paudel, J Park, W Eberle
+R Paudel, and W Eberle
 (2019) An Approach For Concept Drift Detection in a Graph Stream
 Using a Discriminative Subgraph. [Proceedings of Student Research and Creative Inquiry](https://publish.tntech.edu/index.php/PSRCI/issue/current)
 [![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/Paudel-Poster-Research-Day.pdf)

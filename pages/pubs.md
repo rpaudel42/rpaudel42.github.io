@@ -38,4 +38,7 @@ R Paudel, W Eberle, D Talbert
 (2017) Detection of Anomalous Activity in Diabetic Patients Using Graph-Based Approach. [Proceedings of The Thirtieth International FLAIRS Conference (FLAIRS-30)](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/view/15455)
 [![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/view/15455/14978)
 
+#### 2014
 
+R Paudel and W Eberle
+(2014) Mining Twitter Network for Interaction Patterns. [In Proceedings of Student Research and Creative Inquiry]()

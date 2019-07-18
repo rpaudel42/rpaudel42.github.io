@@ -6,6 +6,7 @@ description: Tutorial Related to Graphs
 
 - [How to use GBAD?](/assets/GBADUsers Manual.pdf)
 - [How to Predict High Growing Customer?](https://github.com/rpaudel42/GrowthPrediction/blob/master/predicting_customer.ipynb)
+- [Speaker Prediction Using Time-Series Vowel Utterance Data?](/pages/speakerclassification.md)
 
 #### Presentation/Talk
 - [Detecting the Onset of a Network Layer DoS Attack with a Graph-Based Approach](/assets/FLAIRS_2019.pdf), FLAIRS-32, Sarasota, FL - 2019

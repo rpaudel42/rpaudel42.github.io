@@ -1,6 +1,44 @@
 
-## Solution to Speaker Prediction 
+## Speaker Prediction
 ----------------
+### Project Description
+
+The training data, `train.txt`, is a time series dataset, structured (purposefully) in a non-standard format.
+
+The data contains 370 utterances of a vowel, by 9 male speakers; which correspond to labels 0-8. Note that every speaker speaks the exact same vowel. The data is divided into blocks, separated by `\n\n`. Each block contains a different number of rows, where each row corresponds to a point in time. Each block contains exactly 12 columns. To make the project easier since you only have a day to complete it, we transformed the origin audio signal into 12 [LPC Cepstrum coefficients](http://research.cs.tamu.edu/prism/lectures/sp/l9.pdf), which is a standard practice in speech recognition to achieve high performance.
+
+In summary the training contains 370 blocks, at every point in time (rows) there exists a 12-dimensional vector (columns) corresponding to the LPC Cepstrum coefficients we calculated for you. Every block is actually one out of nine different speakers, speaking a vowel. All of the speakers in every instance are speaking the same vowel.
+
+The rows of the blocks can vary anywhere from 7-29 points, which corresponds to 0.7s - 2.9 seconds.
+
+Aditionally you will find, `test.txt`, which is the test dataset in the same format as `train.txt`.
+
+You will also find another file, `train_block_labels.txt`, which lets you know which label corresponds to which block.
+
+For example the first number in `train_block_labels.txt` is 31, which means that the first 31 blocks correspond to label 0. The second number in the file is 35, which means the second 35 blocks correspond to label 1.
+
+The dataset and source code are available in [Github Repo](https://github.com/rpaudel42/SpeakerPrediction)
+
+### Deliverables
+
+Predict speaker on the test set in the following format:
+
+```
+block_num,prediction
+0,3
+1,2
+2,3
+3,5
+4,0
+...
+268,8
+269,1
+```
+
+That is make sure you have the headers:
+
+1. `block_num`, which corresponds to the block on the test set,
+2. `prediction`, which is a number `0-8`.
 
 ### Background
 

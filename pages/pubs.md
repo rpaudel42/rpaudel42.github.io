@@ -4,6 +4,8 @@ title: Publications
 description: Ramesh Paudel's publications
 ---
 #### 2019
+R Paudel, and W Eberle
+(2019) An Approach For Concept Drift Detection in a Graph Stream Using Discriminative Subgraphs. [ACM Transactions on Knowledge Discovery from Data](https://tkdd.acm.org/about.cfm) (under-review)
 
 R Paudel, P Kandel, W Eberle
 (2019) Detecting Spam Tweets in Trending Topics using Graph-Based Approach. The Future Technology Conference-2019. [![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/Spam_detection_in_trending_topic.pdf) (accepted)

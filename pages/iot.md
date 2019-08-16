@@ -8,8 +8,8 @@ description: Ramesh Paudel, Detecting DoS Attack in Smart Home IoT Devices
 ---
 
 <div class="topimage">
-    <img src="../assets/pics/problem.pdf"
-              title="Concept Drift Detection" alt="Concept Drift Detection Architecture"/>
+    <img src="../assets/pics/testBed.png"
+              title="IoT Smart Home Test Bed" alt="IoT Smart Home Test Bed"/>
 </div>
 
 Most modern users of IoT devices are not aware of the security vulnerabilities of
@@ -32,6 +32,6 @@ In this paper, we propose to represent a real-time smart home IoT network as a \
 ---
 
 <div class="topimage">
-    <img src="../assets/pics/dsdd.png"
-              title="DSDD" alt="DSDD result"/>
+    <img src="../assets/pics/iotresult.png"
+              title="IoT Results" alt="Results of DoS attack detection in IoT devices"/>
 </div>

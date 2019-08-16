@@ -16,7 +16,7 @@ R Paudel, P Kandel, W Eberle
 (2019) Detecting Spam Tweets in Trending Topics using Graph-Based Approach. [The Future Technology Conference-2019.](https://saiconference.com/FTC) [![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/Spam_detection_in_trending_topic.pdf) (accepted)
 
 R Paudel, P Harlan, W Eberle
-(2019) Detecting the Onset of a Network Layer DoS Attack with a Graph-Based Approach. [Proceedings of The Thirty-Second International FLAIRS Conference (FLAIRS-32)](https://www.aaai.org/ocs/index.php/FLAIRS/FLAIRS19/paper/view/18272) [![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/DoS_Attack.pdf)
+(2019) Detecting the Onset of a Network Layer DoS Attack with a Graph-Based Approach. [Proceedings of The Thirty-Second International FLAIRS Conference (FLAIRS-32)](https://www.aaai.org/ocs/index.php/FLAIRS/FLAIRS19/paper/view/18272) [![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](https://www.aaai.org/ocs/index.php/FLAIRS/FLAIRS19/paper/view/18272/17389)
 
 R Paudel, and W Eberle
 (2019) An Approach For Concept Drift Detection in a Graph Stream

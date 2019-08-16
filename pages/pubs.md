@@ -6,7 +6,7 @@ description: Ramesh Paudel's publications
 #### Work in Progress
 R Paudel and W Eberle, Feature Representation of Graphs Stream using Discriminative Shingles. 
 
-Timothy Muncy, R Paudel, and W Eberle, Detecting DoS Attack in Smart Home IoT Devices Using a Graph-Based Approach
+Timothy Muncy, R Paudel, and W Eberle, [Detecting DoS Attack in Smart Home IoT Devices Using a Graph-Based Approach](https://rpaudel42.github.io/pages/iot.html)
 
 #### 2019
 R Paudel and W Eberle

@@ -28,7 +28,7 @@ the late 2016 Mirai malware DDoS attacks  which utilized compromised IoT devices
 
 One possible approach for detecting anomalous behavior in connected, IoT devices, is through graphs. A graph provides a powerful representation of highly relational and inter-dependent nature of IoT network data in smart homes where each device can be treated as a node and the communication between devices as edges. The nature of anomalies in such a network could exhibit themselves as relational. For example in the case of a Distributed Denial of Service (DDoS) attack, one could imagine a scenario where a set of attack devices, in collaboration, are sending a high amount of traffic towards a single device. This scenario points to relational nature of anomalies which is hard to detect using traditional machine learning tools, and more readily detected using a graph-based approach. Another advantage to utilizing a graph-based approach is that we do not need any extra information like packet size, protocol etc. because the graph uses only communication between source and destination device. This is important particularly in situations where a network may be encrypted and approaches which rely on features such as protocol, and packet size can not be used.
 
-In this paper, we propose to represent a real-time smart home IoT network as a graph stream.
+In this paper, we propose to represent a real time smart home IoT network as a graph stream.
 A normative pattern or behavior at any time in the IoT network would represent
 the expected traffic flow in a smart home, while deviations from the expected
 traffic flow (like a DoS attack) would constitute an anomaly. To address the problem

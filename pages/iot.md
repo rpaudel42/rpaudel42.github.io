@@ -41,6 +41,7 @@ graph using a n-shingle constructed from a walk path of a random walk in
 a graph. The fixed sized sketch vector will contain the frequency of
 the top discriminative n-shingle. Finally, the sketch vector will be
 used for DoS attack detection using a standard machine learning approach.
+
 ---
 
 <div class="topimage">

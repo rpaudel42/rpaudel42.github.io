@@ -9,7 +9,8 @@ My principal research interest is in concept drift detection on graph stream and
 
 
 #### Current Research
-
+- [Feature Representation of Graphs Stream using Discriminative Shingles](/pages/graphstream.html)
+- [Detecting DoS Attack in Smart Home IoT Devices](/pages/iot.html)
 - [Concept Drift Detection on Graph Streams](/pages/graphstream.html)
 
 #### Published Works

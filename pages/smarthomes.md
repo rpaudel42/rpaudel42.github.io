@@ -22,3 +22,16 @@ Refer the paper published in [ICDATA-2018 Conference Preceedings](https://csce.u
 2. <h5>Machine Learning Approach:</h5>
 It is our hypothesis that through the application of various data mining and machine learning approaches, we can analyze data from the sensors installed in smart homes in order to predict whether an elderly resident has cognitive impairments, which will hinder their ability to perform daily tasks. With the growing senior citizen population, it is imperative to detect and try to predict these kinds of behaviors because it can improve the quality and safety of the residents’ home environment as well as provide aid and well-being for their caregiver. In this work, we present our proposed approach, the real-world data set used in our experiments, and results from this study. 
 Refer the paper published in [FLAIRS-31 Conference Preceedings](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS18/paper/view/17622/16833) for details.
+
+
+#### Related Work
+Zerkouk, Meriem, and Belkacem Chikhaoui.
+(2018) Long Short Term Memory Based Model
+for Abnormal Behavior Prediction
+in Elderly Persons. [International Conference on Smart Homes and Health Telematics](https://link.springer.com/chapter/10.1007/978-3-030-32785-9_4)
+[![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/LSTM_Abnormal_behavior.pdf)
+
+
+Moallem, M., H. Hassanpour, and A. A. Pouyan
+(2019) Anomaly Detection in Smart Homes Using Deep Learning. [Proceedings of The Thirty-First International FLAIRS Conference (FLAIRS-31)](http://www.ijee.net/article_90081_f67fa283fdc615acbe173f5737ac8edf.pdf)
+[![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/IJEE_Volume 10_Issue 2_Pages 126-135.pdf)

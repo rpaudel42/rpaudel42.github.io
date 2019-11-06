@@ -9,7 +9,7 @@ description: Tutorial Related to Graphs
 - [Speaker Prediction Using Time-Series Vowel Utterance Data?](/pages/speaker/speakerclassification.html)
 
 #### Presentation/Talk
-- [Detecting DoS Attack in Smart Home IoT Devices Using a Graph-Based Approach](/assets/IoT_Slides.pdf), Graudate Student Seminar - Fall 2019, TTU, Nov 6, 2019
+- [Detecting DoS Attack in Smart Home IoT Devices Using a Graph-Based Approach](/assets/IoT_Slides.pdf), Graduate Student Seminar - Fall 2019, TTU, Nov 6, 2019
 - [Detecting Spam Tweets in Trending Topics Using Graph-Based Approach](/assets/FTC_2019_SpamTweet.pdf), Future Technology Conference, San Fransisco, CA - 2019
 - [Detecting the Onset of a Network Layer DoS Attack with a Graph-Based Approach](/assets/FLAIRS_2019.pdf), FLAIRS-32, Sarasota, FL - 2019
 - [Anomaly Detection of Elderly Patient Activities in Smart Homes](/assets/anomaly-detection-elderly-3.pdf), International Conference on Data Science, Las Vegas, NV- 2018

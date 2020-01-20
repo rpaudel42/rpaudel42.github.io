@@ -7,13 +7,13 @@ keywords: Paudel, concept drift, graph stream, graph based anomaly, anomaly dete
 <div class="page-header">
   <h3>About </h3>
 </div>
-I am a Ph.D. Candidate in the [Department of Computer Science](http://www.csc.tntech.edu) at Tennessee Tech University. My PhD advisor is [Dr. William (Bill) Eberle](http://users.csc.tntech.edu/~weberle/).
-My principal research interest is in concept drift detection on graph stream and graph-based anomaly detection usually in the field of health care, smart homes, social networks etc. 
+Ramesh Paudel is a doctoral Candidate at the [Department of Computer Science](http://www.csc.tntech.edu), Tennessee Tech University. His PhD advisor is [Dr. William (Bill) Eberle](http://users.csc.tntech.edu/~weberle/).
+Ramesh principal research interest is in concept drift detection on graph stream and graph-based anomaly detection usually in the field of health care, smart homes, social networks etc.
 
-My research is motivated by real-world problems that can be mapped into graphs. Some of my notable work in the field of fraud/anomaly detection involve [Spam Detection in Twitter Trending Topics]({{ BASE_PATH }}/pages/spamtweet.html), [Network Layer DoS Attack Detection]({{ BASE_PATH }}/pages/dosattack.html), [Anomaly Detection in Individual Activities in Smart Homes]({{ BASE_PATH }}/pages/smarthomes.html) and [Anomalous Activity Detection in Medicare Claim File]({{ BASE_PATH }}/pages/medicare.html). In particular, my research focuses on designing effective and scalable algorithms for unsupervised anomaly detection on drifting graph stream. The developed methods will be applied to detect concept drift using the unsupervised approach, predict future drift and incorporate the drift information to design online graph-based anomaly detection algorithm for effective anomaly detection. 
+His research is motivated by real-world problems that can be mapped into graphs. Some of his notable work in the field of fraud/anomaly detection involve [Spam Detection in Twitter Trending Topics]({{ BASE_PATH }}/pages/spamtweet.html), [Network Layer DoS Attack Detection]({{ BASE_PATH }}/pages/dosattack.html), [Anomaly Detection in Individual Activities in Smart Homes]({{ BASE_PATH }}/pages/smarthomes.html) and [Anomalous Activity Detection in Medicare Claim File]({{ BASE_PATH }}/pages/medicare.html). In particular, my research focuses on designing effective and scalable algorithms for unsupervised anomaly detection on drifting graph stream. The developed methods will be applied to detect concept drift using the unsupervised approach, predict future drift and incorporate the drift information to design online graph-based anomaly detection algorithm for effective anomaly detection.
 
-I received an MS degree in [Computer Science](http://www.csc.tntech.edu)
-in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, I worked as a software developer at [Bespoke House Inc.](http://bespoke.house) Boston, MA. In 2016, I re-joined [Tennessee Tech.](https://www.tntech.edu) for Ph.D. and continued my research.
+He received an MS degree in [Computer Science](http://www.csc.tntech.edu)
+in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, he worked as a software developer at [Bespoke House Inc.](http://bespoke.house) Boston, MA. In 2016, he re-joined [Tennessee Tech.](https://www.tntech.edu) for Ph.D. and continued his research.
 
 <img src="assets/icons/pdf-icon.png" style="width:1.1em !important;"/> [Curriculum Vitae]({{ BASE_PATH }}/assets/resume.pdf)<br/>
 <img src="assets/icons/ghat.png" style="width:1.1em !important;"/> [Google Scholar](https://scholar.google.com/citations?user=seHpymwAAAAJ&hl=en)<br/>
@@ -29,7 +29,7 @@ in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, I worked as
     <div class="row-fluid">
         <div class="span5">
             Ramesh Paudel<br/>
-            <a href="http://www.csc.tntech.edu/kdl/index.php">Knowledge Discovery Lab</a><br/>
+            <a href="https://www.tntech.edu/engineering/programs/csc/data-science-collaboratory.php">Data Science & Analytics Collaboratory</a><br/>
             <a href="https://www.tntech.edu/engineering/departments/csc/">Department of Computer Science</a><br/>
             <a href="https://www.tntech.edu">Tennessee Tech University</a><br/>
             Cookeville, TN 38501<br/>

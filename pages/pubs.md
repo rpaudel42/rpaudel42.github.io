@@ -6,11 +6,12 @@ description: Ramesh Paudel's publications
 #### Work in Progress
 R Paudel and W Eberle, Feature Representation of Graphs Stream using Discriminative Shingles. 
 
+#### 2020
+R Paudel and W Eberle
+(2020) An Approach For Concept Drift Detection in a Graph Stream Using Discriminative Subgraphs. [ACM Transactions on Knowledge Discovery from Data](https://tkdd.acm.org/about.cfm) (accepted)
+
 
 #### 2019
-R Paudel and W Eberle
-(2019) An Approach For Concept Drift Detection in a Graph Stream Using Discriminative Subgraphs. [ACM Transactions on Knowledge Discovery from Data](https://tkdd.acm.org/about.cfm) (under-review)
-
 R Paudel, Timothy Muncy, and W Eberle, Detecting DoS Attack in Smart Home IoT Devices Using a Graph-Based Approach. [2019 International Workshop on IoT Big Data and Blockchain](http://siwn.org.uk/cfp/iotbd19.htm)[![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/S35205.pdf)
 
 R Paudel, P Kandel, W Eberle

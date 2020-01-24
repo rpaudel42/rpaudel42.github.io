@@ -10,6 +10,7 @@ R Paudel and W Eberle, Feature Representation of Graphs Stream using Discriminat
 R Paudel and W Eberle
 (2020) An Approach For Concept Drift Detection in a Graph Stream Using Discriminative Subgraphs. [ACM Transactions on Knowledge Discovery from Data](https://tkdd.acm.org/about.cfm) (accepted)
 
+R Paudel, SNAPSKETCH: Network Representation Approach for Anomaly Detection in Dynamic Network. [RSA Security Conference 2020](https://www.rsaconference.com)[![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/RSAC_2020.pdf)(accepted)
 
 #### 2019
 R Paudel, Timothy Muncy, and W Eberle, Detecting DoS Attack in Smart Home IoT Devices Using a Graph-Based Approach. [2019 International Workshop on IoT Big Data and Blockchain](http://siwn.org.uk/cfp/iotbd19.htm)[![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/S35205.pdf)

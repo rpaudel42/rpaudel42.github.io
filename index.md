@@ -15,41 +15,42 @@ in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, he worked a
 
 ---
 #### Latest News:
-* [Feb, 2020] Attending [RSA Security Conference](https://www.rsaconference.com/), San Fransisco, CA
+* **Feb, 2020 :** Attending [RSA Security Conference](https://www.rsaconference.com/), San Fransisco, CA
 
-* [Dec, 2019] Selected as RSA Security Scholar 2020 by [RSA Security Conference](https://www.rsaconference.com/).
+* **Dec, 2019 :** Selected as RSA Security Scholar 2020 by [RSA Security Conference](https://www.rsaconference.com/).
 
-* [Dec 9, 2019] Attended the [2019 IEEE International Conference on Big Data](http://bigdataieee.org/BigData2019/), Los Angeles, CA and presented the research paper.
+* **Dec 9, 2019 :** Attended the [2019 IEEE International Conference on Big Data](http://bigdataieee.org/BigData2019/), Los Angeles, CA and presented the research paper.
 
-* [Nov 6, 2019] Presented a research work at the Graduate Student Seminar, Tennessee Tech University, titled "Graph-based Outlier Detection in IoT devices".
+* **Nov 6, 2019 :** Presented a research work at the Graduate Student Seminar, Tennessee Tech University, titled "Graph-based Outlier Detection in IoT devices".
 
-* [Nov, 2019] Paper accepted at [2019 IEEE International Conference on Big Data](http://bigdataieee.org/BigData2019/) Workshop on IoT Security, Los Angeles, CA
+* **Nov, 2019 :** Paper accepted at [2019 IEEE International Conference on Big Data](http://bigdataieee.org/BigData2019/) Workshop on IoT Security, Los Angeles, CA
 
-* [Oct 24, 2019] Attended the [Future Technology Conference - 2019](https://saiconference.com/FTC), San Fransisco, CA and presented the research paper.
+* **Oct 24, 2019 :** Attended the [Future Technology Conference - 2019](https://saiconference.com/FTC), San Fransisco, CA and presented the research paper.
 
-* [May, 2019] Attended the [The Thirty-Second International FLAIRS Conference (FLAIRS-32)](https://sites.google.com/view/flairs-32homepage/home), Sarasota, FL and presented the research paper.
+* **May, 2019 :** Attended the [The Thirty-Second International FLAIRS Conference (FLAIRS-32)](https://sites.google.com/view/flairs-32homepage/home), Sarasota, FL and presented the research paper.
 
-* [April, 2019] Paper accepted at the [Future Technology Conference - 2019](https://saiconference.com/FTC), San Fransisco, CA
+* **April, 2019 :** Paper accepted at the [Future Technology Conference - 2019](https://saiconference.com/FTC), San Fransisco, CA
 
-* [Nov, 2018] Paper accepted at the [The Thirty-Second International FLAIRS Conference](https://sites.google.com/view/flairs-32homepage/home),  Sarasota, FL
+* **Nov, 2018 :** Paper accepted at the [The Thirty-Second International FLAIRS Conference](https://sites.google.com/view/flairs-32homepage/home),  Sarasota, FL
 
-* [Sept 2018] Successfully defended Ph.D. dissertation proposal.
+* **Sept 2018 :** Successfully defended Ph.D. dissertation proposal.
 
-* [Aug 2018] Attended the [International Conference on Data Science](https://americancse.org/events/csce2018/proceedings/index_html), Las Vegas, NV, 2018 and presented the research paper.
+* **Aug 2018 :** Attended the [International Conference on Data Science](https://americancse.org/events/csce2018/proceedings/index_html), Las Vegas, NV, 2018 and presented the research paper.
 
-* [April, 2018] Paper accepted at the [International Conference on Data Science](https://americancse.org/events/csce2018/proceedings/index_html), Las Vegas, NV.
+* **April, 2018 :** Paper accepted at the [International Conference on Data Science](https://americancse.org/events/csce2018/proceedings/index_html), Las Vegas, NV.
 
-* [Nov, 2017] Paper accepted at [The 31st International FLAIRS Conference](https://sites.google.com/site/flairs31conference/),  Melbourne, FL
+* **Nov, 2017 :** Paper accepted at [The 31st International FLAIRS Conference](https://sites.google.com/site/flairs31conference/),  Melbourne, FL
 
-* [May, 2017] Attended the [The 30th International FLAIRS Conference](https://sites.google.com/site/flairs30conference/home), Marco Island, FL and presented the research paper.
+* **May, 2017 :** Attended the [The 30th International FLAIRS Conference](https://sites.google.com/site/flairs30conference/home), Marco Island, FL and presented the research paper.
 
-* [Jan, 2017] Selected for Research Assistantship Fellowship by College of Engineering on the occasion of achieving Carnegie classification.
+* **Jan, 2017 :** Selected for Research Assistantship Fellowship by College of Engineering on the occasion of achieving Carnegie classification.
 
-* [Nov, 2016] Paper accepted at [The 30th International FLAIRS Conference](https://sites.google.com/site/flairs30conference/home),  Marco Island, FL
+* **Nov, 2016 :** Paper accepted at [The 30th International FLAIRS Conference](https://sites.google.com/site/flairs30conference/home),  Marco Island, FL
 
-* [Aug, 2016] Started Ph.D. 
+* **Aug, 2016:** Started Ph.D. 
+
 ---
-#### Research Interest:
+####  Research Interest:
 I am primarily interested in Fraud and Anomaly detection using Graph-based approach. My current focus is mainly on: 
 * Graph representation (Embedding/Sketching).
 * Change detection in streaming graph.
@@ -69,7 +70,7 @@ My publications can be found [here]({{ BASE_PATH }}/pages/pubs.html).
 * Software Developer, Midas Technologies Pvt. Ltd., Kathmandu, Nepal, Oct 2010 - Aug 2012.
 
 ---
-### Education
+####  Education
 * PhD in Computer Science (Concentration: Machine Learning & Data Science), Tennessee Tech University, 2016 - Present.
 * MS in Computer Science (Concentration: Data Mining), Tennessee Tech University, 2012-2014.
 * Bachelors in Information Technology, Purbanchal University, Nepal, 2007-2011.

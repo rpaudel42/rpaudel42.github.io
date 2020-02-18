@@ -16,6 +16,10 @@
   position: fixed;
 }
 
+.ml-1{
+  width: 10px;
+}
+
 .container-contact{
   width: 100%;
 }

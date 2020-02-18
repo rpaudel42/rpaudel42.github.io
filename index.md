@@ -13,36 +13,3 @@ His research is motivated by real-world problems that can be mapped into graphs.
 He received an MS degree in [Computer Science](http://www.csc.tntech.edu)
 in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, he worked as a software developer at [Bespoke House Inc.](http://bespoke.house) Boston, MA. In 2016, he re-joined [Tennessee Tech.](https://www.tntech.edu) for Ph.D. and continued his research.
 
-<img src="assets/icons/pdf-icon.png" style="width:1.1em !important;"/> [Curriculum Vitae]({{ BASE_PATH }}/assets/resume.pdf)<br/>
-<img src="assets/icons/ghat.png" style="width:1.1em !important;"/> [Google Scholar](https://scholar.google.com/citations?user=seHpymwAAAAJ&hl=en)<br/>
-<i class="fa fa-github"></i> [Github](https://github.com/rpaudel42)<br/>
-<i class="fa fa-linkedin"></i> [Linkedin](https://www.linkedin.com/in/ramesh-paudel-1384b564/)<br/>
-<img src="assets/icons/rgate.png" style="width:1.1em !important; margin-top: -10px;">[Research Gate](https://www.researchgate.net/profile/Ramesh_Paudel4)
-
----
-
-<div class="container">
-<h4><a name="contact"></a>Contact</h4>
-
-    <div class="row-fluid">
-        <div class="span5">
-            Ramesh Paudel<br/>
-            <a href="https://www.tntech.edu/engineering/programs/csc/data-science-collaboratory.php">Data Science & Analytics Collaboratory</a><br/>
-            <a href="https://www.tntech.edu/engineering/departments/csc/">Department of Computer Science</a><br/>
-            <a href="https://www.tntech.edu">Tennessee Tech University</a><br/>
-            Cookeville, TN 38501<br/>
-            USA<br/><br/>
-
-            <div id="hide_email">
-            Email: rpaudel42 at students dot tntech dot edu
-            </div>
-        </div>
-
-        <div class="span2">
-        <a href="../assets/pics/profilepic.jpg">
-            <img src="../assets/pics/profilepic.jpg"
-                  title="Ramesh Paudel" alt="Ramesh Paudel"/></a>
-        </div>
-    </div>
-</div>
-

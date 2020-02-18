@@ -4,8 +4,7 @@ title: Ramesh Paudel
 description: Ramesh Paudel; a Ph.D. Candidate in Department of Computer Science at Tennessee Tech University - Cookeville, TN; research in concept drift, graph stream, graph-based anomaly, and machine learning.
 keywords: Paudel, concept drift, graph stream, graph based anomaly, anomaly detection
 ---
-<a href="{{ BASE_PATH }}/assets/resume.pdf">Curriculum Vitae</a> | <a href="https://scholar.google.com/citations?user=seHpymwAAAAJ&hl=en">Google Scholar</a> | <a href="https://github.com/rpaudel42">Github</a>
----
+
 Ramesh Paudel is a Doctoral Candidate at the [Department of Computer Science](http://www.csc.tntech.edu), Tennessee Tech University. His Ph.D. advisor is [Dr. William (Bill) Eberle](http://users.csc.tntech.edu/~weberle/).
 Ramesh's principal research interest is in concept drift detection on graph stream and graph-based anomaly detection usually in the field of health care, smart homes, social networks, etc.
 

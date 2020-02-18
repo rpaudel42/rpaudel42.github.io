@@ -162,3 +162,17 @@ footbar{
   background-repeat: repeat-x;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 }
+
+@media (max-width:767px)
+{
+  header{
+    display: none;
+  }
+  .container-body{
+    width: 100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:979px) {
+  
+}

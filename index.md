@@ -23,6 +23,8 @@ in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, he worked a
 
 * [Oct, 2019] Presented a research paper at the [Future Technology Conference - 2019](https://saiconference.com/FTC), San Fransisco, CA.
 
+* [May, 2019] Presented a research paper at the [The Thirty-Second International FLAIRS Conference (FLAIRS-32)](https://sites.google.com/view/flairs-32homepage/home), Sarasota, FL.
+
 ---
 #### Research Interest:
 I am primarily interested in Fraud and Anomaly detection using Graph-based approach. My current focus is mainly on: 

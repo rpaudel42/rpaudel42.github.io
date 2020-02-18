@@ -17,13 +17,13 @@
 }
 
 .ml-1{
-  width: 25%;
   padding-right: 1%;
 }
 
 .ml-last{
-  width: 25%;
+  padding-right: 0;
 }
+
 .container-contact{
   width: 100%;
 }
@@ -90,7 +90,7 @@
 
 
 .profile-pic{
-  max-width: 60% !important;
+  max-width: 70% !important;
   margin-top: 5%;
 }
 
@@ -130,7 +130,8 @@ professonal-link {
   background: #f4f4f4;
   border-radius: 5px;
   border: 1px solid #e0e0e0;
-  max-width: 60%;
+  max-width: 70%;
+  text-align: center;
 }
 
 footbar{

@@ -11,8 +11,9 @@
   float: right;
   width: 65%;
   display: block;
-  margin-left: auto;
+  margin-left: 30%;
   margin-right: auto;
+  position: fixed;
 }
 
 .container-contact{

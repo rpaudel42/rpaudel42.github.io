@@ -11,9 +11,7 @@
   float: right;
   width: 65%;
   display: block;
-  margin-left: 30%;
   margin-right: auto;
-  position: fixed;
 }
 
 .ml-1{
@@ -25,7 +23,7 @@
 }
 
 .container-contact{
-  margin-top: 3em;
+  margin-top: 4em;
   width: 100%;
 }
 .container-narrow > hr {
@@ -125,7 +123,7 @@ ul.downloads {
 }
 
 professonal-link {
-  margin-top: 3em;
+  margin-top: 4em;
   list-style: none;
   padding: 0;
   background: #f4f4f4;

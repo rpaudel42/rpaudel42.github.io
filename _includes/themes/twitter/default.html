@@ -44,51 +44,52 @@
         </div>
       </div>
     </div>
-    <header>
-      <h1><a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a></h1>
+    <div class="container-main">
+      <header>
+        <h2><a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a></h2>
 
+        <!--<img src="{{ BASE_PATH }}/assets/pics/profilepic.jpg" alt="Profile Pic">-->
+        <a href="{{ BASE_PATH }}/assets/pics/profilepic.jpg">
+          <img class="profile-pic" src="{{ BASE_PATH }}/assets/pics/profilepic.jpg"
+               title="Ramesh Paudel" alt="Ramesh Paudel"/></a>
 
-      <!--<img src="{{ BASE_PATH }}/assets/pics/profilepic.jpg" alt="Profile Pic">-->
-      <a href="{{ BASE_PATH }}/assets/pics/profilepic.jpg">
-        <img class="profile-pic" src="{{ BASE_PATH }}/assets/pics/profilepic.jpg"
-             title="Ramesh Paudel" alt="Ramesh Paudel"/></a>
+        <ul class="downloads">
+          <li><img src="assets/icons/pdf-icon.png" style="width:1.1em !important;margin-right: 15px;"/><a href="{{ BASE_PATH }}/assets/resume.pdf">Curriculum Vitae</a></li>
+          <li><img src="assets/icons/ghat.png" style="width:1.1em !important;margin-right: 15px;"/><a href="https://scholar.google.com/citations?user=seHpymwAAAAJ&hl=en">Google Scholar</a></li>
+          <li><i class="fa fa-github" style="margin-right: 15px;"></i><a href="https://github.com/rpaudel42">Github</a></li>
+          <li><i class="fa fa-linkedin" style="margin-right: 15px;"></i><a href="https://www.linkedin.com/in/ramesh-paudel-1384b564/">Linkedin</a></li>
+          <li><img src="assets/icons/rgate.png" style="width:1.1em !important; margin-top: -10px; margin-right: 15px;"><a href="https://www.researchgate.net/profile/Ramesh_Paudel4">Research Gate</a></li>
+        </ul>
 
-      <ul class="downloads">
-        <li><img src="assets/icons/pdf-icon.png" style="width:1.1em !important;margin-right: 15px;"/><a href="{{ BASE_PATH }}/assets/resume.pdf">Curriculum Vitae</a></li>
-        <li><img src="assets/icons/ghat.png" style="width:1.1em !important;margin-right: 15px;"/><a href="https://scholar.google.com/citations?user=seHpymwAAAAJ&hl=en">Google Scholar</a></li>
-        <li> <i class="fa fa-github" style="margin-right: 15px;"></i><a href="https://github.com/rpaudel42">Github</a></li>
-        <li> <i class="fa fa-linkedin" style="margin-right: 15px;"></i><a href="https://www.linkedin.com/in/ramesh-paudel-1384b564/">Linkedin</a></li>
-        <li> <img src="assets/icons/rgate.png" style="width:1.1em !important; margin-top: -10px; margin-right: 15px;"><a href="https://www.researchgate.net/profile/Ramesh_Paudel4">Research Gate</a></li>
-      </ul>
+        <div class="container-contact">
+          <h4><a name="contact"></a>Contact</h4>
 
-      <div class="container-contact">
-        <h4><a name="contact"></a>Contact</h4>
+          <div class="row-fluid">
+              Ramesh Paudel<br/>
+              <a href="https://www.tntech.edu/engineering/programs/csc/data-science-collaboratory.php">Data Science & Analytics Collaboratory</a><br/>
+              <a href="https://www.tntech.edu/engineering/departments/csc/">Department of Computer Science</a><br/>
+              <a href="https://www.tntech.edu">Tennessee Tech University</a><br/>
+              Cookeville, TN 38501<br/>
+              USA<br/><br/>
 
-        <div class="row-fluid">
-            Ramesh Paudel<br/>
-            <a href="https://www.tntech.edu/engineering/programs/csc/data-science-collaboratory.php">Data Science & Analytics Collaboratory</a><br/>
-            <a href="https://www.tntech.edu/engineering/departments/csc/">Department of Computer Science</a><br/>
-            <a href="https://www.tntech.edu">Tennessee Tech University</a><br/>
-            Cookeville, TN 38501<br/>
-            USA<br/><br/>
-
-            <div id="hide_email">
-              Email: rpaudel42 at students dot tntech dot edu
-            </div>
+              <div id="hide_email">
+                Email: rpaudel42 at students dot tntech dot edu
+              </div>
+          </div>
         </div>
+
+      </header>
+      <div class="container-body">
+
+        <div class="content">
+          {{ content }}
+        </div>
+
+        <hr>
+
       </div>
-
-    </header>
-    <div class="container-body">
-
-      <div class="content">
-        {{ content }}
-      </div>
-
-      <hr>
-
     </div>
-
     {% include JB/analytics %}
+
   </body>
 </html>

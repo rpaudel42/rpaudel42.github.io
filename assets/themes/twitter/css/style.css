@@ -74,13 +74,17 @@
   color: #FFF; }
 
 
+.profile-pic{
+  max-width: 60% !important;
+  margin-top: 5%;
+}
+
 header {
   width: 30%;
   float: left;
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased;
   margin-left: 5%;
-  text-align: center;
 }
 ul {
   display: block;
@@ -94,11 +98,9 @@ ul {
 
 ul.downloads {
   list-style: none;
-  height: 40px;
   padding: 0;
   background: #f4f4f4;
   border-radius: 5px;
   border: 1px solid #e0e0e0;
   max-width: 60%;
-  text-align: left;
 }

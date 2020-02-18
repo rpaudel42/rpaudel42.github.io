@@ -13,3 +13,8 @@ His research is motivated by real-world problems that can be mapped into graphs.
 He received an MS degree in [Computer Science](http://www.csc.tntech.edu)
 in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, he worked as a software developer at [Bespoke House Inc.](http://bespoke.house) Boston, MA. In 2016, he re-joined [Tennessee Tech.](https://www.tntech.edu) for Ph.D. and continued his research.
 
+---
+#### Latest News
+⋅⋅* [Feb, 2020] Attending [RSA Security Conference](https://www.rsaconference.com/), San Fransisco, CA
+
+..* [Dec, 2019] Selected as RSA Security Scholar 2020 by [RSA Security Conference](https://www.rsaconference.com/).

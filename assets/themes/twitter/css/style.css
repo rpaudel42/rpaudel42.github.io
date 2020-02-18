@@ -18,8 +18,12 @@
 
 .ml-1{
   width: 25%;
+  padding-right: 1%;
 }
 
+.ml-last{
+  width: 25%;
+}
 .container-contact{
   width: 100%;
 }
@@ -120,6 +124,7 @@ ul.downloads {
 }
 
 professonal-link {
+  margin-top: 25px;
   list-style: none;
   padding: 0;
   background: #f4f4f4;

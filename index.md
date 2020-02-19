@@ -61,6 +61,18 @@ I am primarily interested in Fraud and Anomaly detection using Graph-based appro
 My publications can be found [here]({{ BASE_PATH }}/pages/pubs.html). 
 
 ---
+#### Teaching:
+
+##### Instructor
+
+* CSC 2700: Discrete Mathematics, Summer 2018
+* CSC 1310: Data Structures and Algorithms Lab, Fall 2016
+
+##### Teaching Assistant
+* CSC 1310: Data Structures and Algorithms, Fall 2013/Spring 2014
+* CSC 1300: Introduction to Problem Solving/Computer Programming Fall 2012/Spring 2013
+
+---
 #### Work Experience:
 * Research Assistant, Data Science & Analytics Collaboratory, Tennessee Tech University, Cookeville, TN, Aug 2016 - Present
 * Instructor, Department of Computer Science, Tennessee Tech University, Cookeville, TN, May 2018 - Aug 2018.

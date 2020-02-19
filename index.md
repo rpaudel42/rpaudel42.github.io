@@ -74,15 +74,23 @@ My publications can be found [here]({{ BASE_PATH }}/pages/pubs.html).
 
 ---
 #### Work Experience:
-* Research Assistant, Data Science & Analytics Collaboratory, Tennessee Tech University, Cookeville, TN, Aug 2016 - Present
-* Instructor, Department of Computer Science, Tennessee Tech University, Cookeville, TN, May 2018 - Aug 2018.
-* Lab Instructor, Department of Computer Science, Tennessee Tech University, Cookeville, TN, Aug 2016 - Dec 2016.
-* Data Analyst/Web Developer, Bespoke House Inc., Boston, MA, July 2014 - Aug 2016.
-* Teaching Assistant, Department of Computer Science, Tennessee Tech University, Cookeville, TN, Aug 2012 - May 2014.
-* Software Developer, Midas Technologies Pvt. Ltd., Kathmandu, Nepal, Oct 2010 - Aug 2012.
+* **Research Assistant**, Data Science & Analytics Collaboratory, Tennessee Tech University, Cookeville, TN, Aug 2016 - Present
+* **Instructor**, Department of Computer Science, Tennessee Tech University, Cookeville, TN, May 2018 - Aug 2018.
+* **Lab Instructor**, Department of Computer Science, Tennessee Tech University, Cookeville, TN, Aug 2016 - Dec 2016.
+* **Data Analyst/Web Developer**, Bespoke House Inc., Boston, MA, July 2014 - Aug 2016.
+* **Teaching Assistant**, Department of Computer Science, Tennessee Tech University, Cookeville, TN, Aug 2012 - May 2014.
+* **Software Developer**, Midas Technologies Pvt. Ltd., Kathmandu, Nepal, Oct 2010 - Aug 2012.
 
 ---
 ####  Education
 * PhD in Computer Science (Concentration: Machine Learning & Data Science), Tennessee Tech University, 2016 - Present.
 * MS in Computer Science (Concentration: Data Mining), Tennessee Tech University, 2012-2014.
 * Bachelors in Information Technology, Purbanchal University, Nepal, 2007-2011.
+
+---
+####  Awards, Honors, and Grants
+* **RSAC Security Scholar 2020**, by RSA Security Conference, 2020.
+* **Research Assistant Fellowship**, by Tennessee Tech University - College of Engineering (COE) for achieving Carnegie classification, *awarded for being one of the top students from COE, 2016-Present.
+* **Researcher (Cybersecurity)**, NSF Grant Number 1852126, under the PI/co-PI Dr. Syed Rafay Hasan and Dr. Mohamed Mahmoud, 2019.
+* **Best Research Poster**, An Approach for Concept Drift Detection in a Graph Stream using Discriminative Subgraph, The 14th Annual Research and Creative Inquiry Day, 2019.
+* **Researcher (Cybersecurity)**, NSF Grant Number 1560434, under the PI/co-PI Dr. Syed Rafay Hasan and Dr. Mohamed Mahmoud, 2018.

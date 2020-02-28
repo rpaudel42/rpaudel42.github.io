@@ -13,7 +13,7 @@ R Paudel and W Eberle
 R Paudel, SNAPSKETCH: Network Representation Approach for Anomaly Detection in Dynamic Network. [RSA Security Conference 2020](https://www.rsaconference.com)[![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/RSAC_2020.pdf)(accepted)
 
 #### 2019
-R Paudel, Timothy Muncy, and W Eberle, Detecting DoS Attack in Smart Home IoT Devices Using a Graph-Based Approach. [2019 International Workshop on IoT Big Data and Blockchain](http://siwn.org.uk/cfp/iotbd19.htm)[![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/S35205.pdf)
+R Paudel, Timothy Muncy, and W Eberle, Detecting DoS Attack in Smart Home IoT Devices Using a Graph-Based Approach. [2019 IEEE International Conference on Big Data (Big Data)](https://ieeexplore.ieee.org/document/9006156)[![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/S35205.pdf)
 
 R Paudel, P Kandel, W Eberle
 (2019) Detecting Spam Tweets in Trending Topics using Graph-Based Approach. [The Future Technology Conference-2019.](https://link.springer.com/chapter/10.1007/978-3-030-32520-6_39) [![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/Spam_detection_in_trending_topic.pdf)

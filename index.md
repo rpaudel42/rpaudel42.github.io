@@ -15,7 +15,10 @@ in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, he worked a
 
 ---
 #### Latest News:
-* **Feb, 2020 :** Attending [RSA Security Conference](https://www.rsaconference.com/), San Fransisco, CA
+* **April 2, 2020 :** Successfully defended the Ph.D. Disseratation "EFFICIENT GRAPH KNOWLEDGE DISCOVERY ON GRAPH STREAMS WITH
+CONCEPT DRIFT", Tennessee Tech University.
+
+* **Feb, 2020 :** Attended [RSA Security Conference](https://www.rsaconference.com/), San Fransisco, CA
 
 * **Dec, 2019 :** Selected as RSA Security Scholar 2020 by [RSA Security Conference](https://www.rsaconference.com/).
 

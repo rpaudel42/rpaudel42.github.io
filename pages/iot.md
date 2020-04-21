@@ -33,7 +33,7 @@ A normative pattern or behavior at any time in the IoT network would represent
 the expected traffic flow in a smart home, while deviations from the expected
 traffic flow (like a DoS attack) would constitute an anomaly. To address the problem
  of DoS attack detection in smart home IoT devices, we introduce a new graph-based
-anomaly detection approach called GADIoT that (i) can handle graphs representing smart
+anomaly detection approach called GODIT that (i) can handle graphs representing smart
 homes traffic in real-time, (ii) efficiently processes graph data,
 minimizing run-time performance and memory, and (iii) detects DoS attack
 in real-time. We propose a fixed size sketch-based representation of a

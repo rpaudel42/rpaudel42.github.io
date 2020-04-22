@@ -186,20 +186,6 @@ plot_train_result(histories)
     60000/60000 [==============================] - 92s 2ms/step - loss: 0.0042 - acc: 0.9986 - val_loss: 0.0304 - val_acc: 0.9919
 
 
-
-    ---------------------------------------------------------------------------
-
-    TypeError                                 Traceback (most recent call last)
-
-    <ipython-input-50-af8baec21ee4> in <module>
-         13 histories = model.fit(train_norm, train_y, epochs=10, batch_size=32, verbose=1, validation_data=(val_norm, val_y),)
-         14 # learning curves
-    ---> 15 plot_train_result(histories)
-    
-
-    TypeError: plot_train_result() missing 1 required positional argument: 'history'
-
-
 ### 5. Prediction
 #### 5.1 Collect Test Image
 The collection of digit extracted from covid-19 screening form are the test images.

@@ -1,5 +1,5 @@
 
-## Classify digits extracted from Covid-19 Screening Form.
+### Classify Handwrittern Digits.
 1. Introduction
 2. Project 3 - AI Model Intro
 3. Data preparation

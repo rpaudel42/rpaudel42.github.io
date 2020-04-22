@@ -1,4 +1,4 @@
-## Predict High Growth Customer
+### Predict High Growth Customer
 
 In this document, following two problem will be addressed. <br/>
 ### Problems: -

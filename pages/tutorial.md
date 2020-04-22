@@ -5,7 +5,7 @@ description: Tutorial Related to Graphs
 ---
 
 - [How to use GBAD?](/assets/GBADUsers Manual.pdf)
-- [How to Predict High Growing Customer?](https://github.com/rpaudel42/GrowthPrediction/blob/master/predicting_customer.ipynb)
+- [How to Predict High Growing Customer?](/pages/predicting_customer/predicting_customer.html)
 - [Speaker Prediction Using Time-Series Vowel Utterance Data?](/pages/speaker/speakerclassification.html)
 - [Handwritten Digit Classification from Covid-19 Screening Form?](/pages/Covid-19/Covid-19.html)
 

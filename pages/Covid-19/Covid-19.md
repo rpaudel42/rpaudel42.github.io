@@ -1,5 +1,5 @@
 
-## Develop an AI model to classify the digits extracted from Covid-19 Screening Form.
+## Classify digits extracted from Covid-19 Screening Form.
 1. Introduction
 2. Project 3 - AI Model Intro
 3. Data preparation
@@ -350,15 +350,12 @@ def display_classification(class_result_file):
 display_classification(error_file)
 ```
 
-    22
 
-
-
-![png](output_18_1.png)
+![png](output_18_0.png)
 
 
 #### 5.4 Re-Evaluate
-The digit "9" has worst performance of all.
+The are some clear errors.
 The reason might be because of the orientation and different style of writing digit "9".
 We can generate more robust training set from MNIST by using data agumentation.
 
@@ -383,15 +380,315 @@ model = get_model()
 history = model.fit_generator(data_gen.flow(train_x, train_y, batch_size=100),
                                   epochs=15, validation_data=(val_x, val_y),
                                   verbose=1, steps_per_epoch=train_x.shape[0] // 100)
+model.save("cnn_model.h5")
 plot_train_result(history)
 ```
 
     Epoch 1/15
-    600/600 [==============================] - 120s 200ms/step - loss: 14.5272 - acc: 0.0987 - val_loss: 14.5385 - val_acc: 0.0980
-    Epoch 2/15
-    109/600 [====>.........................] - ETA: 1:23 - loss: 14.5492 - acc: 0.0973
+     83/600 [===>..........................] - ETA: 1:44 - loss: 14.3318 - acc: 0.1107
+
+### Make Prediction
+We can use our saved model to make a final prediction on new images.
 
 
 ```python
+true_y = []
+pred_y = []
+error_file = []
+correct_class = []
+ml_model = models.load_model("cnn_model.h5")
+for file in glob.glob("test_data/*.png"):
+    test_image = load_test_image(file)
+    y = ml_model.predict_classes(test_image)
+    pred_y.append(y)
+    true_y.append(test_y[file.split('/')[1]])
+    if y != test_y[file.split('/')[1]]:
+        error_file.append([test_image, y, test_y[file.split('/')[1]]])
+    else:
+        correct_class.append([test_image, y, test_y[file.split('/')[1]]])
+
+print(metrics.classification_report(true_y, pred_y))
+print("Accuracy : %0.3f" % metrics.accuracy_score(true_y, pred_y))
+
+confusion_mtx = metrics.confusion_matrix(y_true=true_y, y_pred=pred_y)
+# plot the confusion matrix
+plot_confusion_matrix(confusion_mtx, classes=range(10))
+```
+
+    /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+      'precision', 'predicted', average, warn_for)
+    /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+      'precision', 'predicted', average, warn_for)
+    /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+      'precision', 'predicted', average, warn_for)
+
+
+                  precision    recall  f1-score   support
+
+               0       0.11      1.00      0.20        10
+               1       0.00      0.00      0.00        11
+               2       0.00      0.00      0.00         7
+               3       0.00      0.00      0.00        10
+               4       0.00      0.00      0.00         7
+               5       0.00      0.00      0.00         8
+               6       0.00      0.00      0.00         8
+               7       0.00      0.00      0.00         7
+               8       0.00      0.00      0.00        11
+               9       0.00      0.00      0.00        11
+
+        accuracy                           0.11        90
+       macro avg       0.01      0.10      0.02        90
+    weighted avg       0.01      0.11      0.02        90
+
+    Accuracy : 0.111
+
+
+
+![png](output_22_2.png)
+
+
+The complete code list is shown below:
+
+
+```python
+from keras.datasets import mnist
+from keras.utils import to_categorical
+from keras.models import Sequential
+from keras.layers import Conv2D, Dense, Flatten, Lambda, Dropout
+from keras.layers import Convolution2D, MaxPooling2D, BatchNormalization
+from keras.layers.normalization import BatchNormalization
+from keras.optimizers import SGD, Adam
+from keras import models
+from keras.preprocessing.image import ImageDataGenerator
+
+from matplotlib import pyplot
+import matplotlib.cm as cm
+from sklearn import metrics
+import cv2
+
+import glob
+import pandas as pd
+import numpy as np
+
+cnn_model = "model/mnist_cnn_tx.h5"
+bn_model = "model/mnist_bn_tx.h5"
+test_folder = "test_data"
+test_label = "test_data/test_data.csv"
+batch_size = 100
+
+class Utilities:
+    def __init__(self):
+        pass
+
+    # plot learning curves
+    def plot_train_result(self, history):
+        plt.subplot(2, 1, 1)
+        plt.title('Cross Entropy Loss')
+        # plt.plot(history.history['loss'], color='blue', label='train')
+        plt.plot(history.history['val_loss'], color='orange', label='test')
+        # plot accuracy
+        plt.subplot(2, 1, 2)
+        plt.title('Validation Accuracy')
+        # plt.plot(history.history['acc'], color='blue', label='train')
+        plt.plot(history.history['val_acc'], color='orange', label='test')
+        plt.show()
+
+    def plot_confusion_matrix(self, cm, classes,
+                              normalize=False,
+                              title='Confusion matrix',
+                              cmap=plt.cm.Blues):
+        """
+        This function prints and plots the confusion matrix.
+        Normalization can be applied by setting `normalize=True`.
+        """
+        plt.imshow(cm, interpolation='nearest', cmap=cmap)
+        plt.title(title)
+        plt.colorbar()
+        tick_marks = np.arange(len(classes))
+        plt.xticks(tick_marks, classes, rotation=45)
+        plt.yticks(tick_marks, classes)
+
+        if normalize:
+            cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
+
+        thresh = cm.max() / 2.
+        for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
+            plt.text(j, i, cm[i, j],
+                     horizontalalignment="center",
+                     color="white" if cm[i, j] > thresh else "black")
+
+        plt.tight_layout()
+        plt.ylabel('True label')
+        plt.xlabel('Predicted label')
+        plt.show()
+
+    def display_classification(self, class_result_file):
+        """ This function shows 6 images with their predicted and real labels"""
+        total_error = len(class_result_file)
+        n = 0
+        if total_error < 4:
+            nrows = 1
+            ncols = 4
+        else:
+            nrows = 4
+            if total_error <= 16:
+                ncols = int(len(class_result_file) / nrows)
+            else:
+                ncols = 4
+
+        fig, ax = plt.subplots(nrows, ncols, sharex=True, sharey=True)
+        for row in range(nrows):
+            for col in range(ncols):
+                # pyplot.imshow(error_file[n][0], cmap=cm.gray)
+                # pyplot.show()
+                # error = errors_index[n]
+                ax[row, col].imshow((class_result_file[n][0]).reshape((28, 28)), cmap=cm.gray)
+                ax[row, col].set_title(
+                    "Predicted :{} True :{}".format(class_result_file[n][1], class_result_file[n][2]), fontsize=8)
+                n += 1
+        plt.show()
+
+class DataProcessor:
+    def __init__(self):
+        print("\n Preparing Dataset...")
+
+    # load train and test dataset
+    def load_mnist_dataset(self):
+        # load dataset
+        (train_x, train_y), (val_x, val_y) = mnist.load_data()
+        # reshape dataset to have a single channel
+        train_x = train_x.reshape((train_x.shape[0], 28, 28, 1))
+        val_x = val_x.reshape((val_x.shape[0], 28, 28, 1))
+        # one hot encode target values
+        train_y = to_categorical(train_y)
+        val_y = to_categorical(val_y)
+        return train_x, train_y, val_x, val_y
+
+    # scale pixels
+    def prep_pixels(self, train, val):
+        # convert from integers to floats
+        train_norm = train.astype('float32')
+        val_norm = val.astype('float32')
+        # normalize to range 0-1
+        train_norm = train_norm / 255.0
+        val_norm = val_norm / 255.0
+        # return normalized images
+        return train_norm, val_norm
+
+
+    def load_test_images(self, filename):
+        # print("File: ", filename)
+        img = (255 - cv2.imread(filename, 0))
+        image = cv2.resize(img, (28, 28))
+        # pyplot.imshow(image, cmap=cm.gray)
+        # pyplot.show()
+        img = np.array(image)
+        img = img.reshape(1, 28, 28, 1)
+        # prepare pixel data
+        img = img.astype('float32')
+        img = img / 255.0
+        return img
+
+    def data_agumentation(self, train_x, train_y, val_x, val_y):
+        # transform train data to be more robust
+        gen = ImageDataGenerator(rotation_range=8, width_shift_range=0.08, shear_range=0.3,
+                                 height_shift_range=0.08, zoom_range=0.08)
+
+        batches = gen.flow(train_x, train_y, batch_size=100)
+        val_batches = gen.flow(val_x, val_y, batch_size=100)
+        return batches, val_batches
+
+
+class DigitClassifier:
+    def __init__(self):
+        print("\n Initializing ML Model...")
+
+    # define cnn model
+    def get_cnn_model(self):
+        model = Sequential()
+        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', input_shape=(28, 28, 1)))
+        model.add(MaxPooling2D((2, 2)))
+        model.add(Conv2D(64, (3, 3), activation='relu', kernel_initializer='he_uniform'))
+        model.add(Conv2D(64, (3, 3), activation='relu', kernel_initializer='he_uniform'))
+        model.add(MaxPooling2D((2, 2)))
+        model.add(Flatten())
+        model.add(Dense(100, activation='relu', kernel_initializer='he_uniform'))
+        model.add(Dense(10, activation='softmax'))
+        # compile model
+        opt = SGD(lr=0.01, momentum=0.9)
+        model.compile(optimizer=opt, loss='categorical_crossentropy', metrics=['accuracy'])
+        return model
+
+
+def train_cnn_on_mnist():
+    data = DataProcessor()
+    #load data
+    train_x, train_y, val_x, val_y = data.load_mnist_dataset()
+
+    #prepare pixel data
+    train_x, val_x = data.prep_pixels(train_x, val_x)
+
+    #build the model
+    digit_clf = DigitClassifier()
+    model = digit_clf.get_cnn_model()
+
+    #transform train data to be more robust
+    data_gen = ImageDataGenerator(rotation_range=8, width_shift_range=0.12, shear_range=0.3,
+                             height_shift_range=0.12, zoom_range=0.1)
+
+    #fit the model with agumented data
+    history = model.fit_generator(data_gen.flow(train_x, train_y, batch_size=batch_size),
+                                  epochs=15, validation_data=(val_x, val_y),
+                                  verbose=1, steps_per_epoch=train_x.shape[0] // batch_size)
+    # history = c_model.fit(train_x, train_y, epochs=10, batch_size=batch_size, verbose=1, validation_data=(val_x, val_y))
+    model.save(cnn_model)
+
+    util = Utilities()
+    util.plot_train_result(history)
+
+
+def test_on_covid_data(model_name):
+    test_y = pd.read_csv(test_label, header=0, index_col=0, squeeze=True).to_dict()
+    # print("test: ", test_y)
+    ml_model = models.load_model(model_name)
+
+    data = DataProcessor()
+    true_y = []
+    pred_y = []
+    error_file = []
+    correct_class = []
+    for file in glob.glob(test_folder+"/*.png"):
+        test_image = data.load_test_images(file)
+        y = ml_model.predict_classes(test_image)
+        pred_y.append(y)
+        true_y.append(test_y[file.split('/')[1]])
+        if y != test_y[file.split('/')[1]]:
+            error_file.append([test_image, y, test_y[file.split('/')[1]]])
+        else:
+            correct_class.append([test_image, y, test_y[file.split('/')[1]]])
+
+    print(metrics.classification_report(true_y, pred_y))
+    print("Accuracy : %0.3f" % metrics.accuracy_score(true_y, pred_y))
+
+    confusion_mtx = metrics.confusion_matrix(y_true=true_y, y_pred=pred_y)
+    # plot the confusion matrix
+    util = Utilities()
+    util.plot_confusion_matrix(confusion_mtx, classes=range(10))
+
+    util.display_classification(correct_class)
+
+
+if __name__ == "__main__":
+    train_cnn_on_mnist()
+
+    test_on_covid_data(cnn_model)
 
 ```
+
+### Extensions
+
+The following are the lists some ideas for extending the tutorial that you may wish to explore.
+
+1. Tune Data Agumentation. Explore other data agumentation methods impact model performance to make training set more robust.
+2. Tune the Learning Rate. Explore how different learning rates impact the model performance as compared to the baseline model, such as 0.001 and 0.0001.
+3. Tune Model Depth. Explore how adding more layers to the model impact the model performance as compared to the baseline model, such as another block of convolutional and pooling layers or another dense layer in the classifier part of the model.

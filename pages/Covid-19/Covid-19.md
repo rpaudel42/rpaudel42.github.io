@@ -185,6 +185,8 @@ plot_train_result(histories)
     Epoch 10/10
     60000/60000 [==============================] - 92s 2ms/step - loss: 0.0042 - acc: 0.9986 - val_loss: 0.0304 - val_acc: 0.9919
 
+![png](output_10_1.png)
+
 
 ### 5. Prediction
 #### 5.1 Collect Test Image
@@ -384,8 +386,39 @@ model.save("cnn_model.h5")
 plot_train_result(history)
 ```
 
-    Epoch 1/15
-     83/600 [===>..........................] - ETA: 1:44 - loss: 14.3318 - acc: 0.1107
+   Epoch 1/15
+    600/600 [==============================] - 84s 140ms/step - loss: 0.3961 - acc: 0.8735 - val_loss: 0.0627 - val_acc: 0.9803
+    Epoch 2/15
+    600/600 [==============================] - 90s 150ms/step - loss: 0.1315 - acc: 0.9599 - val_loss: 0.0429 - val_acc: 0.9876
+    Epoch 3/15
+    600/600 [==============================] - 105s 175ms/step - loss: 0.0945 - acc: 0.9705 - val_loss: 0.0361 - val_acc: 0.9890
+    Epoch 4/15
+    600/600 [==============================] - 112s 186ms/step - loss: 0.0761 - acc: 0.9770 - val_loss: 0.0376 - val_acc: 0.9882
+    Epoch 5/15
+    600/600 [==============================] - 102s 170ms/step - loss: 0.0699 - acc: 0.9783 - val_loss: 0.0251 - val_acc: 0.9924
+    Epoch 6/15
+    600/600 [==============================] - 104s 173ms/step - loss: 0.0617 - acc: 0.9809 - val_loss: 0.0323 - val_acc: 0.9896
+    Epoch 7/15
+    600/600 [==============================] - 92s 153ms/step - loss: 0.0577 - acc: 0.9824 - val_loss: 0.0247 - val_acc: 0.9917
+    Epoch 8/15
+    600/600 [==============================] - 97s 161ms/step - loss: 0.0494 - acc: 0.9848 - val_loss: 0.0516 - val_acc: 0.9843
+    Epoch 9/15
+    600/600 [==============================] - 89s 148ms/step - loss: 0.0499 - acc: 0.9847 - val_loss: 0.0300 - val_acc: 0.9903
+    Epoch 10/15
+    600/600 [==============================] - 84s 141ms/step - loss: 0.0459 - acc: 0.9855 - val_loss: 0.0267 - val_acc: 0.9912
+    Epoch 11/15
+    600/600 [==============================] - 89s 148ms/step - loss: 0.0432 - acc: 0.9870 - val_loss: 0.0223 - val_acc: 0.9924
+    Epoch 12/15
+    600/600 [==============================] - 93s 155ms/step - loss: 0.0397 - acc: 0.9872 - val_loss: 0.0207 - val_acc: 0.9937
+    Epoch 13/15
+    600/600 [==============================] - 105s 175ms/step - loss: 0.0410 - acc: 0.9869 - val_loss: 0.0250 - val_acc: 0.9923
+    Epoch 14/15
+    600/600 [==============================] - 93s 156ms/step - loss: 0.0390 - acc: 0.9880 - val_loss: 0.0257 - val_acc: 0.9908
+    Epoch 15/15
+    600/600 [==============================] - 91s 152ms/step - loss: 0.0367 - acc: 0.9888 - val_loss: 0.0256 - val_acc: 0.9912
+
+
+![png](output_20_1.png)
 
 ### Make Prediction
 We can use our saved model to make a final prediction on new images.
@@ -415,36 +448,27 @@ confusion_mtx = metrics.confusion_matrix(y_true=true_y, y_pred=pred_y)
 plot_confusion_matrix(confusion_mtx, classes=range(10))
 ```
 
-    /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
-      'precision', 'predicted', average, warn_for)
-    /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
-      'precision', 'predicted', average, warn_for)
-    /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
-      'precision', 'predicted', average, warn_for)
-
-
                   precision    recall  f1-score   support
 
-               0       0.11      1.00      0.20        10
-               1       0.00      0.00      0.00        11
-               2       0.00      0.00      0.00         7
-               3       0.00      0.00      0.00        10
-               4       0.00      0.00      0.00         7
-               5       0.00      0.00      0.00         8
-               6       0.00      0.00      0.00         8
-               7       0.00      0.00      0.00         7
-               8       0.00      0.00      0.00        11
-               9       0.00      0.00      0.00        11
+               0       1.00      0.90      0.95        10
+               1       0.92      1.00      0.96        11
+               2       0.88      1.00      0.93         7
+               3       1.00      0.90      0.95        10
+               4       1.00      0.86      0.92         7
+               5       1.00      1.00      1.00         8
+               6       1.00      1.00      1.00         8
+               7       1.00      0.86      0.92         7
+               8       0.79      1.00      0.88        11
+               9       1.00      0.91      0.95        11
 
-        accuracy                           0.11        90
-       macro avg       0.01      0.10      0.02        90
-    weighted avg       0.01      0.11      0.02        90
+        accuracy                           0.94        90
+       macro avg       0.96      0.94      0.95        90
+    weighted avg       0.95      0.94      0.95        90
 
-    Accuracy : 0.111
+    Accuracy : 0.944
 
 
-
-![png](output_22_2.png)
+![png](output_22_1.png)
 
 
 The complete code list is shown below:
@@ -689,6 +713,6 @@ if __name__ == "__main__":
 
 The following are the lists some ideas for extending the tutorial that you may wish to explore.
 
-1. Tune Data Agumentation. Explore other data agumentation methods impact model performance to make training set more robust.
-2. Tune the Learning Rate. Explore how different learning rates impact the model performance as compared to the baseline model, such as 0.001 and 0.0001.
-3. Tune Model Depth. Explore how adding more layers to the model impact the model performance as compared to the baseline model, such as another block of convolutional and pooling layers or another dense layer in the classifier part of the model.
+1. **Tune Data Agumentation**: Explore other data agumentation methods impact model performance to make training set more robust.
+2. **Tune the Learning Rate**: Explore how different learning rates impact the model performance as compared to the baseline model, such as 0.001 and 0.0001.
+3. **Tune Model Depth**: Explore how adding more layers to the model impact the model performance as compared to the baseline model, such as another block of convolutional and pooling layers or another dense layer in the classifier part of the model.

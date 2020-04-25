@@ -6,8 +6,9 @@ description: Tutorial Related to Graphs
 
 - [How to use GBAD?](/assets/GBADUsers Manual.pdf)
 - [How to Predict High Growing Customer?](/pages/predicting_customer/predicting_customer.html)
-- [Speaker Prediction Using Time-Series Vowel Utterance Data?](/pages/speaker/speakerclassification.html)
-- [Handwritten Digit Classification from Covid-19 Screening Form?](/pages/Covid-19/Covid-19.html)
+- [Speaker Prediction Using Time-Series Vowel Utterance Data](/pages/speaker/speakerclassification.html)
+- [Handwritten Digit Classification from Covid-19 Screening Form](/pages/Covid-19/Covid-19.html)
+- [Image Classification using GluonCV](/pages/image_classification/image.html)
 
 #### Presentation/Talk
 - [Detecting DoS Attack in Smart Home IoT Devices Using a Graph-Based Approach](/assets/IoTBB2019.pptx), 2019 IEEE Big Data Conference, Los Angeles, CA, Dec-2019

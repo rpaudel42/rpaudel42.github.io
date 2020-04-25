@@ -7,7 +7,7 @@ which is slightly different to the multi-class classification setup we've seen s
 
 This is a part of programming assignment for [AWS Computer Vision: Getting Started with GluonCV](https://www.coursera.org/learn/aws-computer-vision-gluoncv/home/welcome) course in [Coursera](https://www.coursera.org)
 
-#### 0) Setup
+#### 1) Setup
 
 We start with some initial setup: importing packages and setting the path to the data.
 
@@ -29,7 +29,7 @@ M3_MODELS = Path(M3_DATA, 'models')
 
 ```
 
-#### 1) Loading an image
+#### 2) Loading an image
 
 Your first task is to implement a function that loads an image from disk given a filepath.
 
@@ -42,7 +42,7 @@ def load_image(filepath):
     return image
 ```
 
-#### 2) Transforming an image
+#### 3) Transforming an image
 
 Up next, you should transform the image so it can be used as input to the pre-trained network.
 
@@ -62,7 +62,7 @@ def transform_image(array):
     return image
 ```
 
-#### 3) Loading a model
+#### 4) Loading a model
 
 With the image loaded and transformed, you now need to load a pre-trained classification model.
 
@@ -77,7 +77,7 @@ def load_pretrained_classification_network():
     return model
 ```
 
-#### 4) Using a model
+#### 5) Using a model
 
 Your next task is to pass your transformed image through the network to obtain predicted probabilities for all ImageNet classes.
 
@@ -96,7 +96,7 @@ def predict_probabilities(network, data):
     return probability
 ```
 
-#### 5) Finding Class Label
+#### 6) Finding Class Label
 
 Since we're only interested in tennis ball classification for now, we need a method of finding the probability associated with tennis ball out of the 1000 classes.
 
@@ -114,7 +114,7 @@ def find_class_idx(label):
     raise NotImplementedError()
 ```
 
-#### 6) Slice Tennis Ball Class
+#### 7) Slice Tennis Ball Class
 
 Using the above function to find the correct index for tennis ball, you should implement a function to slice the calculated probability for tennis ball from the 1000 class probabilities calculated by the network. It should also convert the probability from MXNet `NDArray` to a NumPy `float32`.
 
@@ -129,7 +129,7 @@ def slice_tennis_ball_class(pred_probas):
     raise NotImplementedError()
 ```
 
-#### 7) Classify Tennis Ball Images
+#### 8) Classify Tennis Ball Images
 
 We'll finish this assignment by bringing all of the components together and creating a `TennisBallClassifier` to classify images. You should implement the entire classification pipeline inside the `classify` function using the functions defined earlier on in the assignment. You should notice that the pre-trained model is loaded once during initialization, and then it should be used inside the `classify` method.
 
@@ -185,9 +185,3 @@ np.testing.assert_almost_equal(pred_proba, 0.9988895, decimal=3)
 
 
 ![png](output_26_1.png)
-
-
-
-```python
-
-```

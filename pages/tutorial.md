@@ -4,7 +4,7 @@ title: Tutorials
 description: Tutorial Related to Graphs
 ---
 
-- [How to use GBAD?](/assets/GBADUsers Manual.pdf)
+#### Data Science Tutorial
 - [How to Predict High Growing Customer?](/pages/predicting_customer/predicting_customer.html)
 - [Speaker Prediction Using Time-Series Vowel Utterance Data](/pages/speaker/speakerclassification.html)
 - [Handwritten Digit Classification from Covid-19 Screening Form](/pages/Covid-19/Covid-19.html)
@@ -17,6 +17,7 @@ description: Tutorial Related to Graphs
 - [Anomaly Detection of Elderly Patient Activities in Smart Homes](/assets/anomaly-detection-elderly-3.pdf), International Conference on Data Science, Las Vegas, NV- 2018
 - [Cognitive Health Prediction on the Elderly Using Sensor Data in Smart Homes](/assets/FLAIR_2018.pdf), FLAIRS-31, Marco Island, FL, 2017
 - [Detection of Anomalous Activity in Diabetic Patients](/assets/FLAIRS_2017.pdf), FLAIRS-30, Marco Island, FL - 2017
+- [How to use GBAD?](/assets/GBADUsers Manual.pdf)
 
 #### Research Posters
 

@@ -315,3 +315,5 @@ Using this mapping, we can clearly see the different segments from our original 
 Yellow is used to show regions where the classification is bike for example. 
 
 In conclusion, we started by pre-processing the input image. We then loaded a segmentation model from the model_zoo and used it to generate a prediction. Finally, we interpreted the network outputs and visualize the segments.
+
+This post was assembled by following the lecture from [AWS Computer Vision: Getting Started with GluonCV](https://www.coursera.org/learn/aws-computer-vision-gluoncv/home/welcome) course in [Coursera](https://www.coursera.org)

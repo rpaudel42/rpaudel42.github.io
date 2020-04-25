@@ -185,3 +185,5 @@ np.testing.assert_almost_equal(pred_proba, 0.9988895, decimal=3)
 
 
 ![png](output_26_1.png)
+
+This post was assembled by following the lecture from [AWS Computer Vision: Getting Started with GluonCV](https://www.coursera.org/learn/aws-computer-vision-gluoncv/home/welcome) course in [Coursera](https://www.coursera.org)

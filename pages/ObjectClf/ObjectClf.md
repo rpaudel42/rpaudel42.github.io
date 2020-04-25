@@ -1,6 +1,6 @@
 ### Object Classification using GluonCV
 
-We'll walk through the process of using a pre-trained model for object detection using GluonCV. 
+We'll walk through the process of using a pre-trained model for object detection using GluonCV.
 
 #### 1) Import
 We'll start by preparing our input image for the object-detection network. We'll need to import MXNet, GluonCV and Pyplot.
@@ -551,3 +551,5 @@ gcv.utils.viz.plot_bbox(chw_image, bounding_boxes, probabilities, class_indices,
 We can see that our network has done a good job of detecting the objects. We have detected a dog, a bike and a truck. Our network missed the tree in the background. But that's because we're using a model that's been pretrained on coco. And coco doesn't have an object class for trees.
 
 In conclusion, we started by preprocessing the input image. We then loaded an object detection model from the model Zoo and used it to generate a prediction. And finally, we interpreted the network outputs and visualized the detected object
+
+This post was assembled by following the lecture from [AWS Computer Vision: Getting Started with GluonCV](https://www.coursera.org/learn/aws-computer-vision-gluoncv/home/welcome) course in [Coursera](https://www.coursera.org)

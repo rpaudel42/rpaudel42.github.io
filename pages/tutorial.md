@@ -10,6 +10,8 @@ description: Tutorial Related to Graphs
 - [Handwritten Digit Classification from Covid-19 Screening Form](/pages/Covid-19/Covid-19.html)
 - [Image Classification using GluonCV](/pages/image_classification/image.html)
 - [Object Detection using GluonCV](/pages/ObjectClf/ObjectClf.html)
+- [Image Segementation using GluonCV](/pages/ImgSegmentation/ImgSegmentation.html)
+
 
 #### Presentation/Talk
 - [Detecting DoS Attack in Smart Home IoT Devices Using a Graph-Based Approach](/assets/IoTBB2019.pptx), 2019 IEEE Big Data Conference, Los Angeles, CA, Dec-2019

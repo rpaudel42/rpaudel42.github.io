@@ -2,10 +2,8 @@
 
 Implement a tennis ball detector using a pre-trained image classification network from GluonCV.
 We'll step through the pipeline, from loading and transforming an input image, to loading and using
-a pre-trained model. Since we're only interested in detecting tennis balls, this is a binary classification problem,
-which is slightly different to the multi-class classification setup we've seen so far.
+a pre-trained model. Since we're only interested in detecting tennis balls, this is a binary classification problem.
 
-This is a part of programming assignment for [AWS Computer Vision: Getting Started with GluonCV](https://www.coursera.org/learn/aws-computer-vision-gluoncv/home/welcome) course in [Coursera](https://www.coursera.org)
 
 #### 1) Setup
 
@@ -19,14 +17,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 from pathlib import Path
-```
-
-
-```python
-M3_DATA = Path(os.getenv('DATA_DIR', '../../data'), 'module_3')
-M3_IMAGES = Path(M3_DATA, 'images')
-M3_MODELS = Path(M3_DATA, 'models')
-
 ```
 
 #### 2) Loading an image
@@ -67,8 +57,6 @@ def transform_image(array):
 With the image loaded and transformed, you now need to load a pre-trained classification model.
 
 Choose a MobileNet 1.0 image classification model that's been pre-trained on ImageNet.
-
-<font color='red'>**CAUTION!**</font>: Although the notebook interface has internet connectivity, the **autograders are not permitted to access the internet**. We have already downloaded the correct models and data for you to use so you don't need access to the internet. However, you do need to specify the correct path to the models when loading a model from the Gluon CV Model Zoo using `get_model` or otherwise. Set the `root` parameter to `M3_MODELS`. As an example, you should have something similar to `gcv.model_zoo.get_model(..., root=M3_MODELS)`. Usually, in the real world, you have internet access, so setting the `root` parameter isn't required (and it's set to `~/.mxnet` by default).
 
 
 ```python

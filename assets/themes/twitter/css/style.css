@@ -19,6 +19,10 @@
   padding-inline-start: 15px !important;
 }
 
+.li-blog{
+  float: left;
+}
+
 .ml-1{
   padding-right: 10%;
 }

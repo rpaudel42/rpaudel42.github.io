@@ -15,6 +15,10 @@
   margin-right: auto;
 }
 
+.ul-blog{
+  padding-inline-start: 15px;
+}
+
 .ml-1{
   padding-right: 10%;
 }

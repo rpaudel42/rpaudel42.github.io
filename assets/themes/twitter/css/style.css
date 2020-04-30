@@ -16,7 +16,7 @@
 }
 
 .ul-blog{
-  padding-inline-start: 15px;
+  padding-inline-start: 15px !important;
 }
 
 .ml-1{

@@ -8,7 +8,8 @@ description: Tutorial Related to Graphs
 - [How to Predict High Growing Customer?](/pages/predicting_customer/predicting_customer.html)
 - [Speaker Prediction Using Time-Series Vowel Utterance Data](/pages/speaker/speakerclassification.html)
 - [Handwritten Digit Classification from Covid-19 Screening Form](/pages/Covid-19/Covid-19.html)
-- [Image Classification using GluonCV](/pages/image_classification/image.html)
+- [Image Classification using GluonCV-Pretrained Network](/pages/image_classification/image.html)
+- [Image Classification using GluonCV-Custom Network](/pages/TrainLeNet/TrainLeNet.html)
 - [Object Detection using GluonCV](/pages/ObjectClf/ObjectClf.html)
 - [Image Segementation using GluonCV](/pages/ImgSegmentation/ImgSegmentation.html)
 

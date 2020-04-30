@@ -1,4 +1,4 @@
-### Object Classification using GluonCV
+### Object Detection using GluonCV
 
 We'll walk through the process of using a pre-trained model for object detection using GluonCV.
 

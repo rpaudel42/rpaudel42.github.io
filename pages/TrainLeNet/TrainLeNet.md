@@ -341,3 +341,5 @@ print("Validation Accuracy: %0.3f"%(val_acc.get()[1]))
 For the model that we trained, we can see that the validation accuracy of 90 percent is very close to the training accuracy of 91 percent. 
 
 Meaning that the model does a good job generalizing to new examples.
+
+This post was assembled by following the lecture from [AWS Computer Vision: Getting Started with GluonCV](https://www.coursera.org/learn/aws-computer-vision-gluoncv/home/welcome) course in [Coursera](https://www.coursera.org)

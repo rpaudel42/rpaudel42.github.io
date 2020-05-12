@@ -16,6 +16,10 @@ in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, he worked a
 
 ---
 #### Latest News:
+* **May 9, 2020 :** Officially graduated with the Ph.D. in Computer Science from Tennessee Tech University.
+
+* **May, 2020 :** Awarded **2020 Emminance Award** for the "Best PhD Research Paper" by Department of Computer Science.
+
 * **April, 2020 :** Journal Paper titled "An Approach For Concept Drift Detection in a Graph Stream Using Discriminative Subgraphs" accepted at [ACM Transactions on Knowledge Discovery from Data](https://dl.acm.org/journal/tkdd).
 
 * **April 2, 2020 :** Successfully defended the Ph.D. Disseratation "Efficient Graph Knowledge Discovery on Graph Streams with

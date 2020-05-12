@@ -99,6 +99,7 @@ My publications can be found [here]({{ BASE_PATH }}/pages/pubs.html).
 
 ---
 ####  Awards, Honors, and Grants
+* **2020 Eminence Award**, The Best PhD Research Paper, by Department of Computer Science, 2020.
 * **RSAC Security Scholar 2020**, by RSA Security Conference, 2020.
 * **Research Assistant Fellowship**, by Tennessee Tech University - College of Engineering (COE) for achieving Carnegie classification, *awarded for being one of the top students from COE, 2016-Present.
 * **Researcher (Cybersecurity)**, NSF Grant Number 1852126, under the PI/co-PI Dr. Syed Rafay Hasan and Dr. Mohamed Mahmoud, 2019.

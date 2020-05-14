@@ -6,9 +6,9 @@ keywords: Paudel, concept drift, graph stream, graph based anomaly, anomaly dete
 ---
 
 Ramesh Paudel completed his Ph.D from the [Department of Computer Science](http://www.csc.tntech.edu), Tennessee Tech University. His Ph.D. advisor is [Dr. William (Bill) Eberle](http://users.csc.tntech.edu/~weberle/).
-Ramesh's principal research interest is in concept drift detection on graph stream and graph-based anomaly detection usually in the field of health care, smart homes, social networks, etc.
+Ramesh's principal research interest is in graph-representation and concept drift detection on graph stream. The graph representation technique is used for anomaly detection usually in the field of computer network, IoT devices, health care, smart homes, social networks, etc.
 
-His research is motivated by real-world problems that can be mapped into graphs. Some of his notable works in the field of fraud/anomaly detection involve [Spam Detection in Twitter Trending Topics]({{ BASE_PATH }}/pages/spamtweet.html), [Network Layer DoS Attack Detection]({{ BASE_PATH }}/pages/dosattack.html), [Anomaly Detection in Individual Activities in Smart Homes]({{ BASE_PATH }}/pages/smarthomes.html), and [Anomalous Activity Detection in Medicare Claim File]({{ BASE_PATH }}/pages/medicare.html).
+His research is motivated by real-world problems that can be mapped into graphs. Some of his notable works in the field of fraud/anomaly detection involve [Intrusion Detection in Smart Homes IoT Network]({{ BASE_PATH }}/pages/iot.html), [Spam Detection in Twitter Trending Topics]({{ BASE_PATH }}/pages/spamtweet.html), [Network Layer DoS Attack Detection]({{ BASE_PATH }}/pages/dosattack.html), [Anomaly Detection in Elderly Patient's Activities in Smart Homes]({{ BASE_PATH }}/pages/smarthomes.html), and [Anomalous Claim Detection in Medicare Claim File]({{ BASE_PATH }}/pages/medicare.html).
 In particular, his research focuses on designing effective and scalable algorithms for unsupervised anomaly detection on drifting graph streams. The developed methods will be applied to detect concept drift using the unsupervised approach, predict future drift, and incorporate the drift information to design an online graph-based anomaly detection algorithm for effective anomaly detection.
 
 He received an MS degree in [Computer Science](http://www.csc.tntech.edu)
@@ -18,7 +18,7 @@ in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, he worked a
 #### Latest News:
 * **May 9, 2020 :** Officially graduated with the Ph.D. in Computer Science from Tennessee Tech University.
 
-* **May, 2020 :** Awarded **2020 Emminance Award** for the "Best PhD Research Paper" by Department of Computer Science.
+* **May, 2020 :** Awarded **2020 Emminance Award** for the "Best PhD Research Paper" by the College of Engineering - Tennessee Tech University.
 
 * **April, 2020 :** Journal Paper titled "An Approach For Concept Drift Detection in a Graph Stream Using Discriminative Subgraphs" accepted at [ACM Transactions on Knowledge Discovery from Data](https://dl.acm.org/journal/tkdd).
 

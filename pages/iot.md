@@ -42,6 +42,12 @@ a graph. The fixed sized sketch vector will contain the frequency of
 the top discriminative n-shingle. Finally, the sketch vector will be
 used for DoS attack detection using a standard machine learning approach.
 
+
+
+For further detail, please refer the paper published in [2019 IEEE International Conference on Big Data (Big Data)](https://ieeexplore.ieee.org/document/9006156).
+
+
+
 ---
 
 <div class="topimage">

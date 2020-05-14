@@ -3,14 +3,15 @@ layout: page
 title: Publications
 description: Ramesh Paudel's publications
 ---
-#### Work in Progress
-R Paudel and W Eberle, Feature Representation of Graphs Stream using Discriminative Shingles. 
 
 #### 2020
+R Paudel and W Eberle, “SNAPSKETCH: : Graph Representation Approach for Intrusion Detection in a Streaming Graph”, [16th International Workshop on Mining and Learning
+with Graphs](http://www.mlgworkshop.org/2020/) (submitted).
+
 R Paudel and W Eberle
 (2020) An Approach For Concept Drift Detection in a Graph Stream Using Discriminative Subgraphs. [ACM Transactions on Knowledge Discovery from Data](https://tkdd.acm.org/about.cfm) (accepted)
 
-R Paudel, SNAPSKETCH: Network Representation Approach for Anomaly Detection in Dynamic Network. [RSA Security Conference 2020](https://www.rsaconference.com)[![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/RSAC_2020.pdf)(accepted)
+R Paudel, SNAPSKETCH: Network Representation Approach for Anomaly Detection in Dynamic Network. [RSA Security Conference 2020](https://www.rsaconference.com)[![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/RSAC_2020.pdf)
 
 #### 2019
 R Paudel, Timothy Muncy, and W Eberle, Detecting DoS Attack in Smart Home IoT Devices Using a Graph-Based Approach. [2019 IEEE International Conference on Big Data (Big Data)](https://ieeexplore.ieee.org/document/9006156)[![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/S35205.pdf)

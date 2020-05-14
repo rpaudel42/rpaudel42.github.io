@@ -65,7 +65,7 @@ taken as a standard for applying a graph-based approach, and
 potentially another dataset might have produced false positives
 (something we plan to investigate in the future).
 
-For further detail, please refer the paper published in [FLAIRS-2019 Conference](https://rpaudel42.github.io/assets/MAIN-F-PaudelR.77.pdf).
+For further detail, please refer the paper published in [FLAIRS-2019 Conference](https://www.aaai.org/ocs/index.php/FLAIRS/FLAIRS19/paper/view/18272).
 
 <div class="topimage">
         <img src="../assets/pics/dos_result.png"

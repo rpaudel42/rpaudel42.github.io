@@ -99,7 +99,7 @@ recall and F1-score to that of existing baseline approaches. Graphs provide a po
 machinery for eectively capturing the long-range correlations among interdependent
 data objects/entities.
 
-For further detail, please refer the paper published in [FTC-2019 Conference](https://rpaudel42.github.io/assets/Spam_detection_in_trending_topic.pdf).
+For further detail, please refer the paper published in [FTC-2019 Conference](https://link.springer.com/chapter/10.1007/978-3-030-32520-6_39).
 
 
 

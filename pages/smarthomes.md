@@ -33,5 +33,5 @@ in Elderly Persons. [International Conference on Smart Homes and Health Telemati
 
 
 Moallem, M., H. Hassanpour, and A. A. Pouyan
-(2019) Anomaly Detection in Smart Homes Using Deep Learning. [Proceedings of The Thirty-First International FLAIRS Conference (FLAIRS-31)](http://www.ijee.net/article_90081_f67fa283fdc615acbe173f5737ac8edf.pdf)
+(2019) Anomaly Detection in Smart Homes Using Deep Learning. [Iranian (Iranica) Journal of Energy and Environment](http://www.ijee.net/article_90081_f67fa283fdc615acbe173f5737ac8edf.pdf)
 [![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/IJEE_Volume 10_Issue 2_Pages 126-135.pdf)

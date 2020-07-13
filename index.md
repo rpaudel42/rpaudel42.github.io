@@ -89,7 +89,8 @@ My publications can be found [here]({{ BASE_PATH }}/pages/pubs.html).
 
 ---
 #### Work Experience:
-* **Research Assistant**, Data Science & Analytics Collaboratory, Tennessee Tech University, Cookeville, TN, Aug 2016 - Present
+* **Post-Doctoral Scientist**, School of Engineering and Applied Sciences, The George Washington University, Washington DC, July 2020 - Present
+* **Research Assistant**, Data Science & Analytics Collaboratory, Tennessee Tech University, Cookeville, TN, Aug 2016 - May 2020
 * **Instructor**, Department of Computer Science, Tennessee Tech University, Cookeville, TN, May 2018 - Aug 2018.
 * **Lab Instructor**, Department of Computer Science, Tennessee Tech University, Cookeville, TN, Aug 2016 - Dec 2016.
 * **Data Analyst/Web Developer**, Bespoke House Inc., Boston, MA, July 2014 - Aug 2016.

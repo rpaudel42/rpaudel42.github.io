@@ -5,11 +5,10 @@ description: Ramesh Paudel's publications
 ---
 
 #### 2020
-R Paudel and W Eberle, “SNAPSKETCH: : Graph Representation Approach for Intrusion Detection in a Streaming Graph”, [16th International Workshop on Mining and Learning
-with Graphs](http://www.mlgworkshop.org/2020/) (accepted).
+R Paudel and W Eberle, SNAPSKETCH: : Graph Representation Approach for Intrusion Detection in a Streaming Graph, [16th International Workshop on Mining and Learning
+with Graphs](http://www.mlgworkshop.org/2020/) [![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](http://www.mlgworkshop.org/2020/papers/MLG2020_paper_1.pdf)
 
-R Paudel and W Eberle
-(2020) An Approach For Concept Drift Detection in a Graph Stream Using Discriminative Subgraphs. [ACM Transactions on Knowledge Discovery from Data](https://tkdd.acm.org/about.cfm) (accepted)
+R Paudel and W Eberle, An Approach For Concept Drift Detection in a Graph Stream Using Discriminative Subgraphs. [ACM Transactions on Knowledge Discovery from Data](https://tkdd.acm.org/about.cfm)[![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](https://dl.acm.org/doi/abs/10.1145/3406243)
 
 R Paudel, SNAPSKETCH: Network Representation Approach for Anomaly Detection in Dynamic Network. [RSA Security Conference 2020](https://www.rsaconference.com)[![pdf]({{ BASE_PATH }}/assets/icons/pdf-icon.png)](/assets/RSAC_2020.pdf)
 

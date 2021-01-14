@@ -6,7 +6,7 @@ keywords: Paudel, concept drift, graph stream, graph based anomaly, anomaly dete
 ---
 
 Ramesh Paudel is a Post-Doctoral Scientist at the [Graph Computing Lab](https://www2.seas.gwu.edu/~howie/glab.html) at [George Washington University](https://www.gwu.edu). He completed his Ph.D from the [Department of Computer Science](http://www.csc.tntech.edu), Tennessee Tech University under [Dr. William (Bill) Eberle](http://users.csc.tntech.edu/~weberle/).
-Ramesh's principal research interest is in graph-representation, anomaly detection, and concept drift detection on graph stream. His research focuses anomaly detection usually in the field of computer network, IoT devices, health care, smart homes, social networks, etc.
+Ramesh's principal research interest is in graph-representation, anomaly detection, social network analysis, and concept drift detection. His research focuses anomaly detection usually in the field of computer network, IoT devices, health care, smart homes, social networks, etc.
 
 His research is motivated by real-world problems that can be mapped into graphs. Some of his notable works in the field of fraud/anomaly detection involve [Intrusion Detection in Smart Homes IoT Network]({{ BASE_PATH }}/pages/iot.html), [Spam Detection in Twitter Trending Topics]({{ BASE_PATH }}/pages/spamtweet.html), [Network Layer DoS Attack Detection]({{ BASE_PATH }}/pages/dosattack.html), [Anomaly Detection in Elderly Patient's Activities in Smart Homes]({{ BASE_PATH }}/pages/smarthomes.html), and [Anomalous Claim Detection in Medicare Claim File]({{ BASE_PATH }}/pages/medicare.html).
 In particular, his research focuses on designing effective and scalable algorithms for unsupervised anomaly detection on drifting graph streams. The developed methods will be applied to detect concept drift using the unsupervised approach, predict future drift, and incorporate the drift information to design an online graph-based anomaly detection algorithm for effective anomaly detection.
@@ -105,6 +105,7 @@ My publications can be found [here]({{ BASE_PATH }}/pages/pubs.html).
 
 ---
 ####  Awards, Honors, and Grants
+* **Principal Investigator**, Coordinated Sharing Behavior on Facebook, Research Grant by the Institute for Data, Democracy & Politics, The George Washington University, **Amount: $25,000**, 2021.
 * **2020 Eminence Award**, The Best PhD Research Paper, by Department of Computer Science, 2020.
 * **RSAC Security Scholar 2020**, by RSA Security Conference, 2020.
 * **Research Assistant Fellowship**, by Tennessee Tech University - College of Engineering (COE) for achieving Carnegie classification, *awarded for being one of the top students from COE, 2016-Present.

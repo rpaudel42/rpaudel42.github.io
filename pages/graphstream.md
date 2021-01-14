@@ -66,6 +66,8 @@ of each learning algorithms. Thus, we believe that the proposed
 methodology can be used as a tool for drift detection by other
 graph stream learning techniques for coping with concept drift.
 
+
+For further detail, please refer the paper published in [The ACM Transactions on Knowledge Discovery from Data (TKDD)](https://dl.acm.org/doi/abs/10.1145/3406243).
 ---
 
 <div class="topimage">

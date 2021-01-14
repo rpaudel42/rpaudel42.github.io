@@ -8,6 +8,7 @@ description: Ramesh Paudel, Graph Represenatation, Graph Embedding
 ---
 
 ***Dynamic Graph Embedding***
+
 In this project, we propose a novel embedding technique for dynamic graph that capture the short-term as well as long-term temporal information. The majority of the dynamic graph embedding technique has focused on static snapshots of the graph and has largely ignored the temporal dynamics within a single snapshot. Representing dynamic graph as a sequence of static snapshots where each snapshot represents all edges that occurs between a discrete time interval (e.g. minute, hour, or day) can be very coarse and noisy approximation of actual time dynamic. For example, in graph stream with edges arriving continuosly with high rate (every second/millisecond) selecting higher time granularity (e.g. minute, hour, or day) may result in loss of information and lead to poor predictive performance. Therefore, we propose to use the concept of temporal walk to capture the smallest time granularity within a snapshot. A temporal random walk traverse a graph in a increasing order of edge times. The sequence of nodes generated using temporal walk carries important information. For example, if the edge (or link) represents an email communication sent from one user to another, then the state of the user who receives the email message changes in response to the email communication.
 
 <div class="topimage">
@@ -19,7 +20,7 @@ Given the success of techiques like DeepWalk, Walklet, Node2Vec that utilizes Sk
 temporal walk is given as an input to a word2vec  model that returns node representations with the maximum likelihood of preserving node neighborhoods (spatial) as well as short-term temporal dependencies in a d-dimensional feature space. However, the framework can easily be used for other deep graph models that leverage random walks as the temporal walks can serve as input vectors for neural networks. We then plan to extend it to the dynamic setting through introducing a recurrent mechanism to update the network parameters, for capturing the dynamism of the graphs. Figure above shows the proposed framework for the dynamic embedding. The time-dependent embeddings learned by the proposed approach based on temporal random walks, will avoid the issues and information loss that arises when time is ignored or modeled as a sequence of discrete static snapshots. We believe the proposed approach will be useful in cybersecurity for identifying advance persistance threat, lateral movement, reducing false positive, and other type of cyber attacks. In social network, the proposed dynamic embedding technique will be useful to study the birth and the evolution of communities specifically focusing on coordinated communities for spreading misinformation.
 
 ---
-*** Graph Sketching***
+***Graph Sketching***
 <div class="topimage">
     <img src="../assets/pics/sketching.pdf"
               title="Graph Representation" alt="Graph Representation"/>

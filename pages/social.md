@@ -5,7 +5,7 @@ description: Social Network Analysis
 ---
 
 <div class="topimage">
-    <img src="../assets/pics/social.png"
+    <img src="../assets/pics/social.jpg"
               title="Coordinated Sharing Behavior on Facebook " alt="Coordinated Sharing Behavior on Facebook"/>
 </div>
 

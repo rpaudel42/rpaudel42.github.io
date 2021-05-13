@@ -5,7 +5,7 @@ description: Ramesh Paudel; Ph.D. in Computer Science - Tennessee Tech Universit
 keywords: Paudel, concept drift, graph stream, graph based anomaly, anomaly detection
 ---
 
-Ramesh Paudel is a Post-Doctoral Scientist at the [Graph Computing Lab](https://www2.seas.gwu.edu/~howie/glab.html) at [George Washington University](https://www.gwu.edu). He completed his Ph.D from the [Department of Computer Science](http://www.csc.tntech.edu), Tennessee Tech University under [Dr. William (Bill) Eberle](http://users.csc.tntech.edu/~weberle/).
+Ramesh Paudel is a Research Scientist at the [Graph Computing Lab](https://www2.seas.gwu.edu/~howie/glab.html) at [George Washington University](https://www.gwu.edu). He completed his Ph.D from the [Department of Computer Science](http://www.csc.tntech.edu), Tennessee Tech University under [Dr. William (Bill) Eberle](http://users.csc.tntech.edu/~weberle/).
 Ramesh's principal research interest is in graph-representation, anomaly detection, social network analysis, and concept drift detection. His research focuses anomaly detection usually in the field of computer network, IoT devices, health care, smart homes, social networks, etc.
 
 His research is motivated by real-world problems that can be mapped into graphs. Some of his notable works in the field of fraud/anomaly detection involve [Intrusion Detection in Smart Homes IoT Network]({{ BASE_PATH }}/pages/iot.html), [Spam Detection in Twitter Trending Topics]({{ BASE_PATH }}/pages/spamtweet.html), [Network Layer DoS Attack Detection]({{ BASE_PATH }}/pages/dosattack.html), [Anomaly Detection in Elderly Patient's Activities in Smart Homes]({{ BASE_PATH }}/pages/smarthomes.html), and [Anomalous Claim Detection in Medicare Claim File]({{ BASE_PATH }}/pages/medicare.html).
@@ -16,6 +16,8 @@ in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, he worked a
 
 ---
 #### Latest News:
+* **May, 2021 :** Accepted a Research Scientist position at [Graph Computing Lab](https://www2.seas.gwu.edu/~howie/glab.html) at the [George Washington University](https://www.gwu.edu)
+
 * **July, 2020 :** Joined [Graph Computing Lab](https://www2.seas.gwu.edu/~howie/glab.html) at the [George Washington University](https://www.gwu.edu) as the Post-Doctoral Scientist
 
 * **July, 2020 :** Paper accepted at [16th Internationl Workshop on

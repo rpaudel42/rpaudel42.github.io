@@ -5,7 +5,7 @@ description: Ramesh Paudel's publications
 ---
 
 #### 2021
-R Paudel, L Good, D Kaiser, J Gannod, and W Eberle, Visualization of Anomalies using Graph-Based Anomaly Detection, [The Thirty Fourth International FLAIRS Conference (FLAIRS-34)](https://www.flairs-34.info) (submitted)
+R Paudel, L Good, D Kaiser, J Gannod, and W Eberle, Visualization of Anomalies using Graph-Based Anomaly Detection, [The Thirty Fourth International FLAIRS Conference (FLAIRS-34)](https://www.flairs-34.info)
 
 #### 2020
 R Paudel and W Eberle, SNAPSKETCH: : Graph Representation Approach for Intrusion Detection in a Streaming Graph, [16th International Workshop on Mining and Learning

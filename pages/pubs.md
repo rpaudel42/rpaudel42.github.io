@@ -4,6 +4,13 @@ title: Publications
 description: Ramesh Paudel's publications
 ---
 
+#### 2022
+Y Yang, R Paudel, J McShann, M Hindman, H Howie Huang, D Broniatowski, Coordinated link sharing on Facebook, [72nd Annual International Communication Association Conference (ICA 2022)](https://www.icahdq.org/page/ICA2022)
+
+R Paudel, H. Howie Huang, PIKACHU: Temporal Walk Based Dynamic Graph
+Embedding for Network Anomaly Detection, [IEEE/IFIP Network Operations and Management Symposium (NOMS'22)](https://noms2022.ieee-noms.org)
+
+
 #### 2021
 R Paudel, L Good, D Kaiser, J Gannod, and W Eberle, Visualization of Anomalies using Graph-Based Anomaly Detection, [The Thirty Fourth International FLAIRS Conference (FLAIRS-34)](https://www.flairs-34.info)
 

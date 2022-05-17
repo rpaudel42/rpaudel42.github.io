@@ -16,6 +16,11 @@ in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, he worked a
 
 ---
 #### Latest News:
+* **May, 2022 :** A Paper  "Coordinated link sharing on Facebook", publised at the [72nd Annual International Communication Association Conference (ICA 2022)](https://www.icahdq.org/page/ICA2022)
+
+* **April, 2022 :** A Paper, "PIKACHU: Temporal Walk Based Dynamic Graph
+Embedding for Network Anomaly Detection", publised at the [IEEE/IFIP Network Operations and Management Symposium (NOMS'22)](https://noms2022.ieee-noms.org)
+
 * **May, 2021 :** Accepted a Research Scientist position at [Graph Computing Lab](https://www2.seas.gwu.edu/~howie/glab.html) at the [George Washington University](https://www.gwu.edu)
 
 * **July, 2020 :** Joined [Graph Computing Lab](https://www2.seas.gwu.edu/~howie/glab.html) at the [George Washington University](https://www.gwu.edu) as the Post-Doctoral Scientist

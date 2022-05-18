@@ -18,8 +18,7 @@ in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, he worked a
 #### Latest News:
 * **May, 2022 :** A Paper  "Coordinated link sharing on Facebook", publised at the [72nd Annual International Communication Association Conference (ICA 2022)](https://www.icahdq.org/page/ICA2022)
 
-* **April, 2022 :** A Paper, "PIKACHU: Temporal Walk Based Dynamic Graph
-Embedding for Network Anomaly Detection", publised at the [IEEE/IFIP Network Operations and Management Symposium (NOMS'22)](https://noms2022.ieee-noms.org)
+* **April, 2022 :** A Paper, "PIKACHU: Temporal Walk Based Dynamic Graph Embedding for Network Anomaly Detection", publised at the [IEEE/IFIP Network Operations and Management Symposium (NOMS'22)](https://noms2022.ieee-noms.org)
 
 * **May, 2021 :** Accepted a Research Scientist position at [Graph Computing Lab](https://www2.seas.gwu.edu/~howie/glab.html) at the [George Washington University](https://www.gwu.edu)
 
@@ -96,7 +95,8 @@ My publications can be found [here]({{ BASE_PATH }}/pages/pubs.html).
 
 ---
 #### Work Experience:
-* **Post-Doctoral Scientist**, School of Engineering and Applied Sciences, The George Washington University, Washington DC, July 2020 - Present
+* **Research Scientist**, School of Engineering and Applied Sciences, The George Washington University, Washington DC, May 2021 - Present
+* **Post-Doctoral Scientist**, School of Engineering and Applied Sciences, The George Washington University, Washington DC, July 2020 - April 2021
 * **Research Assistant**, Data Science & Analytics Collaboratory, Tennessee Tech University, Cookeville, TN, Aug 2016 - May 2020
 * **Instructor**, Department of Computer Science, Tennessee Tech University, Cookeville, TN, May 2018 - Aug 2018.
 * **Lab Instructor**, Department of Computer Science, Tennessee Tech University, Cookeville, TN, Aug 2016 - Dec 2016.

@@ -1,11 +1,11 @@
 ---
 layout: frontpage
 title: Ramesh Paudel
-description: Ramesh Paudel; Ph.D. in Computer Science - Tennessee Tech University - Cookeville, TN; research in concept drift, graph stream, graph-based anomaly, and machine learning.
+description: Ramesh Paudel; Ph.D. in Computer Science, data scientist, graph stream, graph-based anomaly, and machine learning.
 keywords: Paudel, concept drift, graph stream, graph based anomaly, anomaly detection
 ---
 
-Ramesh Paudel is a Research Scientist at the [Graph Computing Lab](https://www2.seas.gwu.edu/~howie/glab.html) at [George Washington University](https://www.gwu.edu). He completed his Ph.D from the [Department of Computer Science](http://www.csc.tntech.edu), Tennessee Tech University under [Dr. William (Bill) Eberle](http://users.csc.tntech.edu/~weberle/).
+Ramesh Paudel is a Data Scientis at Sysco Corporation. In the past, I worked as a Research Scientist at the [Graph Computing Lab](https://www2.seas.gwu.edu/~howie/glab.html) at [George Washington University](https://www.gwu.edu). He completed his Ph.D from the [Department of Computer Science](http://www.csc.tntech.edu), Tennessee Tech University under [Dr. William (Bill) Eberle](http://users.csc.tntech.edu/~weberle/).
 Ramesh's principal research interest is in graph-representation, anomaly detection, social network analysis, and concept drift detection. His research focuses anomaly detection usually in the field of computer network, IoT devices, health care, smart homes, social networks, etc.
 
 His research is motivated by real-world problems that can be mapped into graphs. Some of his notable works in the field of fraud/anomaly detection involve [Intrusion Detection in Smart Homes IoT Network]({{ BASE_PATH }}/pages/iot.html), [Spam Detection in Twitter Trending Topics]({{ BASE_PATH }}/pages/spamtweet.html), [Network Layer DoS Attack Detection]({{ BASE_PATH }}/pages/dosattack.html), [Anomaly Detection in Elderly Patient's Activities in Smart Homes]({{ BASE_PATH }}/pages/smarthomes.html), and [Anomalous Claim Detection in Medicare Claim File]({{ BASE_PATH }}/pages/medicare.html).
@@ -16,6 +16,8 @@ in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, he worked a
 
 ---
 #### Latest News:
+* **Nov, 2022 : Joined Enterprise Analytics Team (EAT), Sysco Corporation as a Data Scientist.
+
 * **May, 2022 :** A Paper  "Coordinated link sharing on Facebook", publised at the [72nd Annual International Communication Association Conference (ICA 2022)](https://www.icahdq.org/page/ICA2022)
 
 * **April, 2022 :** A Paper, "PIKACHU: Temporal Walk Based Dynamic Graph Embedding for Network Anomaly Detection", publised at the [IEEE/IFIP Network Operations and Management Symposium (NOMS'22)](https://noms2022.ieee-noms.org)
@@ -95,7 +97,8 @@ My publications can be found [here]({{ BASE_PATH }}/pages/pubs.html).
 
 ---
 #### Work Experience:
-* **Research Scientist**, School of Engineering and Applied Sciences, The George Washington University, Washington DC, May 2021 - Present
+* **Data Scientist**, Enterprise Analytics Team (EAT), The Sysco Corporation, Houston,TX Nov 2022 - Present
+* **Research Scientist**, School of Engineering and Applied Sciences, The George Washington University, Washington DC, May 2021 - Nov 2022
 * **Post-Doctoral Scientist**, School of Engineering and Applied Sciences, The George Washington University, Washington DC, July 2020 - April 2021
 * **Research Assistant**, Data Science & Analytics Collaboratory, Tennessee Tech University, Cookeville, TN, Aug 2016 - May 2020
 * **Instructor**, Department of Computer Science, Tennessee Tech University, Cookeville, TN, May 2018 - Aug 2018.

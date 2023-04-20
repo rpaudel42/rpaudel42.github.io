@@ -16,7 +16,7 @@ in 2014, from Tennessee Tech University, Cookeville. From 2014-2016, he worked a
 
 ---
 #### Latest News:
-* **Nov, 2022 : Joined Enterprise Analytics Team (EAT), Sysco Corporation as a Data Scientist.
+* **Nov, 2022 :** Joined Enterprise Analytics Team (EAT), Sysco Corporation as a Data Scientist.
 
 * **May, 2022 :** A Paper  "Coordinated link sharing on Facebook", publised at the [72nd Annual International Communication Association Conference (ICA 2022)](https://www.icahdq.org/page/ICA2022)
 

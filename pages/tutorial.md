@@ -5,6 +5,8 @@ description: Tutorial Related to Graphs
 ---
 
 #### Data Science Tutorial
+- [Build a Simple Neural Network using Numpy](https://medium.com/towards-data-science/build-a-simple-neural-network-using-numpy-2add9aad6fc8)
+- [Build a Simple Neural Network using PyTorch](https://medium.com/towards-data-science/build-a-simple-neural-network-using-pytorch-38c55158028d
 - [How to Predict High Growing Customer?](/pages/predicting_customer/predicting_customer.html)
 - [Speaker Prediction Using Time-Series Vowel Utterance Data](/pages/speaker/speakerclassification.html)
 - [Handwritten Digit Classification from Covid-19 Screening Form](/pages/Covid-19/Covid-19.html)
